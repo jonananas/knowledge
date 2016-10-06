@@ -15,8 +15,8 @@ Create input.utf8 with
 * Country Name (SE)
 * State (empty line)
 * City (City)
-* Org (UMU)
-* OrgUnit (ITS)
+* Org (Company)
+* OrgUnit (department)
 * FQDN (local-docker)
 * Email (empty line)
 
