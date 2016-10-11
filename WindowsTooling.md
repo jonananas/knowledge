@@ -19,3 +19,19 @@ A bit outdated: https://howtonode.org/how-to-install-nodejs
     ./configure
     make
     sudo make install
+    
+## Cygwin and ssh-agent
+
+    # Setup ssh-agent
+    if [[ -e $HOME/.sshagent.conf ]]; then
+          . $HOME/.sshagent.conf>/dev/null
+    fi
+
+    # If agent above is not running, then restart it
+    if `ps -p ${SSH_AGENT_PID}>/dev/null`;then true;
+    else
+      ssh-agent >| $HOME/.sshagent.conf
+      . $HOME/.sshagent.conf
+      ssh-add ~/.ssh/id_rsa
+    fi
+    
