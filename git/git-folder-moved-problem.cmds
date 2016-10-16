@@ -1,0 +1,32 @@
+# setup local git
+mkdir git-move-lab
+cd git-move-lab
+git init .
+
+# master
+mkdir -p src/main/org
+echo "This is some code that we are going to move later during refactoring" > src/main/org/Master.java
+git add .
+git commit -m "Initial commit"
+
+# anna
+git branch anna
+
+# mark
+git checkout -b mark
+mv src/main/org src/main/com
+git add .
+git commit -m "mark moved to com"
+
+# master
+git checkout master
+git merge mark
+
+# anna
+echo "This is some new code that anna put in the original location before mark pushed move to master" > src/main/org/Anna.java
+git add .
+git commit -m "Anna created"
+git merge master
+find src
+
+# It's not unreasonable to expect Anna.java to have moved to src/main/com, but it has not.
