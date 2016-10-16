@@ -18,8 +18,7 @@ A bit outdated: https://howtonode.org/how-to-install-nodejs
     cd node
     ./configure
     make
-    sudo make install
-    
+    sudo make install    
 ## Cygwin and ssh-agent
 
     # Setup ssh-agent

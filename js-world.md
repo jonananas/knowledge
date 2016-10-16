@@ -8,3 +8,6 @@
 * immutable - Immutable collections for JavaScript
 * core-js - polyfills so that you can use those nifty feature of "modern js" on all browsers
 * 
+
+## Tools
+* Lighthouse - Checks best practices for progressive web apps. https://www.youtube.com/watch?v=6LQJtH90-aA
