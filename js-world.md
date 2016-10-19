@@ -11,3 +11,7 @@
 
 ## Tools
 * Lighthouse - Checks best practices for progressive web apps. https://www.youtube.com/watch?v=6LQJtH90-aA
+
+
+## Redux
+* https://dzone.com/articles/mvc-is-dead-what-comes-next
