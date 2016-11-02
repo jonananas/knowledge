@@ -24,3 +24,6 @@ Put this in your .zshrc/.tcshrc or similar
     docker-machine start dockervm > /dev/null &
     fi
     
+## Adding mount
+    /cygdrive/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe sharedfolder add dockervm --name temp --hostpath 'c:\temp' --automount
+Did not work on windows

@@ -10,8 +10,12 @@
 * 
 
 ## Tools
-* Lighthouse - Checks best practices for progressive web apps. https://www.youtube.com/watch?v=6LQJtH90-aA
+* [Lighthouse - Checks best practices for progressive web apps](https://www.youtube.com/watch?v=6LQJtH90-aA)
 
 
 ## Redux
-* https://dzone.com/articles/mvc-is-dead-what-comes-next
+* [mvc-is-dead-what-comes-next](https://dzone.com/articles/mvc-is-dead-what-comes-next)
+
+## React
+* [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [Reactive Programming (in cycle.js)](https://cycle.js.org/streams.html)
