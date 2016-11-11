@@ -1,13 +1,19 @@
 # Windows tools
 
+## Essentials
 * Cygwin
 * Git for windows - Preoptimized git for Windows with NTFS
 * ConEmu - Run all terminals in same window with tabs
 
-## Package managers
+## Package managers (choose one)
 * apt-cyg for Cygwin https://github.com/transcode-open/apt-cyg
 * pacman for Git for windows SDK https://github.com/git-for-windows/build-extra/releases
 * pact for Babun ( Preconfigured Cygwin ) http://babun.github.io/
+
+## Extras
+* Kdiff3 - Compare files, for example in git.
+* Pandoc - Convert text, spreadsheets to other formats, ie docx-->md, xlsx --> md etc. 
+
 
 ## Node
 A bit outdated: https://howtonode.org/how-to-install-nodejs
@@ -39,6 +45,9 @@ To change oracle-created link to jre (A "hard" directory link, also called Junct
     mklink /J javapath c:\MyPrograms\Java\jdk1.8\bin
 
 # Cygwin
+Use <https://cygwin.com/cgi-bin2/package-grep.cgi> to search for commands, is similar to
+
+    apt-cyg searchall fuser
 
 ## Program directory and paths
 Since "Program Files" are bit of a hassle to use in cygwin 
