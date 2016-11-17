@@ -27,3 +27,19 @@ Put this in your .zshrc/.tcshrc or similar
 ## Adding mount
     /cygdrive/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe sharedfolder add dockervm --name temp --hostpath 'c:\temp' --automount
 Did not work on windows
+
+# Monitoring
+
+[6 monitoring tools for Docker](http://www.infoworld.com/article/2976930/application-virtualization/6-monitoring-tools-docker-containers.html)
+
+[cAdvisor](https://github.com/google/cadvisor)
+
+    docker run \
+    --volume=/var/run:/var/run:rw \
+    --volume=/sys:/sys:ro \
+    --volume=/var/lib/docker/:/var/lib/docker:ro \
+    --publish=8080:8080 \
+    --detach=true \
+    --name=cadvisor \
+    google/cadvisor:latest
+
