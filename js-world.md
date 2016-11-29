@@ -22,3 +22,6 @@ https://dzone.com/articles/comparison-of-js-frameworks-angularjs-vs-reactjs-v
 ## React
 * [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 * [Reactive Programming (in cycle.js)](https://cycle.js.org/streams.html)
+
+## Framework comparisons
+* Speed and memory consumption per framework: <https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts/table.html>
