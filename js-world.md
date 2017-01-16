@@ -30,6 +30,9 @@ https://dzone.com/articles/comparison-of-js-frameworks-angularjs-vs-reactjs-v
 * [Why use redux and not fb flux](http://stackoverflow.com/questions/32461229/why-use-redux-over-facebook-flux)
 * [Why use fb flux and not redux](http://stackoverflow.com/questions/32021763/what-could-be-the-downsides-of-using-redux-instead-of-flux/32916602#32916602)
 
+### Redux with angular
+<https://www.youtube.com/watch?v=BP8NVy1JlRU>
+
 ## npm
 Node package manager, install node and npm gets installed
 npm repository is <https://npmjs.com>
