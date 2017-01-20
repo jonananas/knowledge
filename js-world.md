@@ -27,11 +27,21 @@ https://dzone.com/articles/comparison-of-js-frameworks-angularjs-vs-reactjs-v
 ## Redux
 * [mvc-is-dead-what-comes-next](https://dzone.com/articles/mvc-is-dead-what-comes-next)
 * [Why use redux](http://redux.js.org/docs/introduction/Motivation.html)
+** Handling ever changing and complex UI state is hard!
+** Mutation and asynchronicity (mentos and coke) are great in separation, but together they create a mess
+** Redux is design pattern
+** Redux make state mutations predictable by imposing three principles
+*** Single source of truth (single store contains all application state)
+*** State is read-only (emit an action)
+*** Changes are made with pure functions (reducers take action + state, returns new state)
 * [Why use redux and not fb flux](http://stackoverflow.com/questions/32461229/why-use-redux-over-facebook-flux)
 * [Why use fb flux and not redux](http://stackoverflow.com/questions/32021763/what-could-be-the-downsides-of-using-redux-instead-of-flux/32916602#32916602)
 
 ### Redux with angular
 <https://www.youtube.com/watch?v=BP8NVy1JlRU>
+
+## Angular
+
 
 ## npm
 Node package manager, install node and npm gets installed
