@@ -48,6 +48,17 @@ To change oracle-created link to jre (A "hard" directory link, also called Junct
 Use <https://cygwin.com/cgi-bin2/package-grep.cgi> to search for commands, is similar to
 
     apt-cyg searchall fuser
+    
+## Same home for cygwin and windows
+
+Edit /etc/nsswitch.conf, uncomment
+
+    db_home: windows 
+
+Alternatively make current user use windows home
+
+    mkpasswd -c -p "$(cygpath -H)" > /etc/passwd
+Still have to edit /etc/passwd to change shell.
 
 ## Program directory and paths
 Since "Program Files" are bit of a hassle to use in cygwin 

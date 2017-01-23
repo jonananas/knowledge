@@ -1,10 +1,12 @@
 # JSF vs Angular
 
-Den större diskussionen borde vara SPA vs Server-side, och däremellan finns en stor gråzon.
-JSF och Spring MVC har ungefär lika stor marknadsandel.
-Angular2/Angular.io verkar vara ett naturligt val för en 
+It all depends, as always - we cannot see into the future, just guess... 
 
-Utgångspunkt (fördomar från start):
+## Conclusion
+If you are focusing on user experience, go for Angular or some other SPA framework backed by REST.
+If you are strong in Java but weak in web, you will probably get more productive in JSF in the short term.
+You will stay productive as long as you are happy with available JSF components, but when you want to tweak or make you own components you will need to learn
+web development, like javascript, html5, css. Stuff that you are not familiar with. This probably means low productivity and you may wish that you had made a different choice.  
 
 ## Links
 <https://www.reddit.com/r/java/comments/4o20t3/angularjs_or_jsf_2/>
@@ -21,16 +23,17 @@ Utgångspunkt (fördomar från start):
 * Concept of ViewScope makes writing CRUD very easy.
 * Corporate backing of JCP, meaning long time backward compat. Not at the whim of OpenSource maintainers.
 
-Contra JSF
+## Contra JSF
 * High skill cap, hard to find good developers
 * Custom (UI)Components are not easy to write as they could be especially the rendering part (mitigated by Composite Components, but they are not as performant)
-* REST based applications of course have a lighter load on the server
 * More or less in "maintenance mode", though JSF 2.3 will add some long awaited features and there is no lack of new component libraries.
-* Testability not so good. Unit testing javabeans or end-to-end testing only, testing front-end separate of back-end not possible.
+* Testability not so good. Unit testing javabeans or end-to-end testing only, testing front-end separate of back-end not possible. (Not verified)
+* Not REST:
+* REST based applications of course have a lighter load on the server
 * No generic server-side API (compare with REST).
 * Mixing back-end technology not supported (compare with REST).
 
-Pro Angular:
+## Pro Angular:
 * Very light stress on the server
 * More modern and a lot more popular
 * Writing custom components is a breeze
@@ -39,9 +42,10 @@ Pro Angular:
 * Testing front-end separate from back-end supported.
 * Clean separation between backend and frontend when using REST.
 
-Contra Angular:
+## Contra Angular:
 * IDE support isn't as good
 * Javascript build pipeline is a mess (IMHO)
 * Can be sluggish on slow devices due to a lot of Javascript
 * Usually a lot of REST Api calls. In JSF for every page/view there is exactly one "endpoint" on the server that you need to secure, test and maintain. REST-Apis grow very large very quickly and you need to test, maintain and secure all of the endpoints. They also often require more client requests per page view.
 * "Assumed" Server and Client "state" can get out of sync, i.e. when one REST call fails due to a connection timeout.
+* Front-end frameworks move fast, you might have to update all of your code in a year.
