@@ -15,21 +15,25 @@ Mounts filesystem from host on container, meaning container_dir is hidden
 
     –v <hostdir>:<container_dir>
 
-# Security
+# Articles
+## Security
 * Short blog on why Docker is more secure than running on host - <https://blog.docker.com/2016/08/software-security-docker-containers/>
 * Container that tests and reports security issues with container and docker setup - <https://github.com/docker/docker-bench-security>
 * Source and explanation of each issue from docker-bench-security - <https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.11.0_Benchmark_v1.0.0.pdf>
 * On-site security scan if you are paying for private repo - <https://docs.docker.com/docker-cloud/builds/image-scan>
 
-## root-access to host without user namespace
+### root-access to host without user namespace
 There are two ways to allow a user to run docker, either it can sudo to root, or it belongs to a docker-group. Either way, there is nothing preventing the docker-user from becoming root in docker, for example by running docker run --user root. There is also nothing preventing the user
 from mounting / (root) from the host into docker. The net effect is that any user running Docker effectively has root access to the host.
 *Unless* users are namespaced, which they are not by default, see <https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-user-namespace-options> for more info. When users are namespaced, the root
 user in the docker container will map to a different user on the host.
 
-# In production
+## In production
 * <https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/>
 * <http://patrobinson.github.io/2016/11/05/docker-in-production/>
+
+## Comparing to JVM
+* <http://blog.codepipes.com/containers/docker-for-java-big-picture.html>
 
 # Monitoring
 
