@@ -13,6 +13,11 @@
 ## Extras
 * Kdiff3 - Compare files, for example in git.
 * Pandoc - Convert text, spreadsheets to other formats, ie docx-->md, xlsx --> md etc. 
+* Process Explorer - Tells you which program has a file or directory open. <https://technet.microsoft.com/en-us/sysinternals/bb896653>
+* handle - Cmdline equivalence of Process Explorer.
+
+## Commands
+* mklink - Create windows link. Run in cmd, for example by running runas cmd from cygwin. 
 
 
 ## Node

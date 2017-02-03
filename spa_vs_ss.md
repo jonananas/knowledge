@@ -11,6 +11,9 @@ web development, like javascript, html5, css. Stuff that you are not familiar wi
 ## Links
 <https://www.reddit.com/r/java/comments/4o20t3/angularjs_or_jsf_2/>
 <https://dzone.com/articles/why-you-should-avoid-jsf> Read comments!
+SPA: https://github.com/mmikowski/spa/blob/master/slides/2013-10-22-make_it_rock.pdf
+SPA: https://mmikowski.github.io/no-frameworks/
+SPA: The fog of SPA
 
 ## Pro JSF
 * Great IDE support (custom tags are autocompleted and validated)
