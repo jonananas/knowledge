@@ -1,6 +1,6 @@
 # JS-world
 
-## Libs
+## Libs and tools
 * TSLint - checks your TypeScript code for readability, maintainability, and functionality errors
 * webpack - takes modules with dependencies and emits static assets representing those modules.
 * Protractor - is an end-to-end test framework for AngularJS
@@ -8,14 +8,15 @@
 * Bootstrap - is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 * immutable - Immutable collections for JavaScript
 * core-js - polyfills so that you can use those nifty feature of "modern js" on all browsers
+* Babel - transpiler from ES2015 to backward compat js.
 
 ## Communities
 <https://gitter.im>
 Mozilla Developer Network <https://developer.mozilla.org> Bra ställe att få info om html, tex storage event, onload, etc
 
-
 ## Tools
 * [Lighthouse - Checks best practices for progressive web apps](https://www.youtube.com/watch?v=6LQJtH90-aA)
+* stripe - payments
 
 ## Versioning
 * Semantic versioning <http://semver.org/>
