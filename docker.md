@@ -28,6 +28,12 @@ from mounting / (root) from the host into docker. The net effect is that any use
 *Unless* users are namespaced, which they are not by default, see <https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-user-namespace-options> for more info. When users are namespaced, the root
 user in the docker container will map to a different user on the host.
 
+## Database in docker
+[Comments](<https://news.ycombinator.com/item?id=13582757) on [Why Databases Are Not for Docker Containers](https://myopsblog.wordpress.com/2017/02/06/why-databases-is-not-for-containers/)
+Conclusion? Seems ok if you 
+* docker stop with long timeout to allow database to shut down properly
+* Use volumes for database fileaccess to circumvent file storage complexity that might lead to corruption.
+
 ## In production
 * <https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/>
 * <http://patrobinson.github.io/2016/11/05/docker-in-production/>
