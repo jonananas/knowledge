@@ -24,6 +24,9 @@ Mounts filesystem from host on container, meaning container_dir is hidden
 
     –v <hostdir>:<container_dir>
 
+# Docker clouds
+* <https://codefresh.io/> is a Docker-native CI/CD platform.
+
 # Articles
 ## Security
 * Short blog on why Docker is more secure than running on host - <https://blog.docker.com/2016/08/software-security-docker-containers/>
