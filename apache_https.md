@@ -1,8 +1,12 @@
 # Apache HTTPS
 
-## Check certificate
+## Check local certificate
     openssl x509 -in server.pem -text -noout
     openssl x509 -in server.crt -text -noout
+    
+## Check remote certificate
+
+    openssl s_client -showcerts -connect www.domain.com:443
     
 ## Check private key
      openssl rsa -in server.key -check

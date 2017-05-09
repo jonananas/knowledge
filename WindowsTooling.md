@@ -43,7 +43,7 @@ JAVAHOME points to generic link which in turn points to latest jdk
 
 
 ## Javapath
-To change oracle-created link to jre (A "hard" directory link, also called Junction)
+To change oracle-created link to jre (A "hard" directory link, also called Junction), as Admin:
 
     cd C:\ProgramData\Oracle\Java
     del javapath

@@ -9,7 +9,16 @@
 
 ## Delete tag in private v1 registry
     curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT
+
+## v2 private registry
+
+List repos https://private-registry.com/v2/_catalog
+
+List tags https://private-registry.com/v2/repo/tags/list
+
     
+## List repos i private v2 registry
+
 ## Docker volumes
 Mounts filesystem from host on container, meaning container_dir is hidden 
 
