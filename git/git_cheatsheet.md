@@ -15,3 +15,16 @@
 ## Delete remote branch
     git push origin --delete <branch_name>
 For git earlier than 1.7.0, see [How to delete a Git branch both locally and remotely?](http://stackoverflow.com/questions/2003505/how-to-delete-a-git-branch-both-locally-and-remotely)
+
+## Show all editors of current directory
+NOTE: Does not show editors of each file in directory or subdirectories.
+
+    git log --follow --pretty=format:"%ae" . |sort|uniq
+    
+## Patching
+### Create patch from diff
+    git diff -p -w > /tmp/source.patch
+### Apply patch
+    git apply /tmp/source-jar.patch
+### Apply patch on cygwin using git for windows
+    git apply `cygpath -w /tmp/source.patch`

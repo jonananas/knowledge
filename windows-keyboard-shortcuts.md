@@ -6,3 +6,5 @@
 | -------------------- | ------------------------- |
 | Alt+Shift+Left/Right | Increase/Decrease Heading |
 | Alt+Shift+Up/Down    | Move line up/down         |
+
+ 
