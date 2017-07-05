@@ -21,6 +21,7 @@
 * [Overview](https://docs.oracle.com/javase/tutorial/datetime/iso/overview.html)
 * [DateTime tutorial](http://docs.oracle.com/javase/tutorial/datetime/index.html)
 * [Legacy Date-Time Code](http://docs.oracle.com/javase/tutorial/datetime/iso/legacy.html)
+* [Converting from Joda-Time to java.time](http://blog.joda.org/2014/11/converting-from-joda-time-to-javatime.html)
 
 ## [Design principles](http://docs.oracle.com/javase/tutorial/datetime/overview/design.html)
 * Clear
