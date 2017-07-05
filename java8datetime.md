@@ -1,8 +1,5 @@
 # Java 8 DateTime API
 
-''Instant'' Instant in time in UTC, useful for logs, schedule international meeting etc.
-'''ZonedDateTime'''
-
 | Class         | Explanation                     | Useful for   |
 | -------       | -------------                   | ------------ |
 | Instant       | Instant in time in UTC          | Timestamp in logs, schedule international meetings, etc |
@@ -20,14 +17,13 @@
 * [DateTimeFormatter](http://docs.oracle.com/javase/tutorial/datetime/iso/format.html)
 * [Temporal package – add/subtract time etc.](http://docs.oracle.com/javase/tutorial/datetime/iso/temporal.html)
 
+## Links
+* [Overview](https://docs.oracle.com/javase/tutorial/datetime/iso/overview.html)
+* [DateTime tutorial](http://docs.oracle.com/javase/tutorial/datetime/index.html)
+* [Legacy Date-Time Code](http://docs.oracle.com/javase/tutorial/datetime/iso/legacy.html)
+
 ## [Design principles](http://docs.oracle.com/javase/tutorial/datetime/overview/design.html)
 * Clear
 * Fluent
 * Immutable
 * Extensible
-
-## Links
-* [Overview](https://docs.oracle.com/javase/tutorial/datetime/iso/overview.html)
-* [DateTime tutorial] (http://docs.oracle.com/javase/tutorial/datetime/index.html)
-* [Legacy Date-Time Code](http://docs.oracle.com/javase/tutorial/datetime/iso/legacy.html)
-
