@@ -7,10 +7,19 @@
 ## Squash feature branch
      git merge --squash <feature_branch>
      git commit --edit -m"$(git log --format=%B <target_branch>..<feature_branch>)"
+
+### Example
+    git merge --squash dev
+    git commit --edit -m"$(git log --format=%B master..dev)"
      
-## Push "un-current" branch
+## Push branch other than current
     git push <src>:<dst>
     git push origin master:master # Will push master branch even if your current branch is dev
+    
+## Pull branch other than current
+While on dev, cmd below will pull master to master
+
+	git pull origin master:master
     
 ## Delete remote branch
     git push origin --delete <branch_name>
