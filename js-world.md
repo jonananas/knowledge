@@ -17,6 +17,7 @@ Mozilla Developer Network <https://developer.mozilla.org> Bra ställe att få in
 ## Tools
 * [Lighthouse - Checks best practices for progressive web apps](https://www.youtube.com/watch?v=6LQJtH90-aA)
 * stripe - payments
+* [Nightwatch.js](http://nightwatchjs.org/) - Browser automated testing done easy. Write End-to-End tests in Node.js quickly and effortlessly that run against a Selenium/WebDriver server. 
 
 ## Versioning
 * Semantic versioning <http://semver.org/>
