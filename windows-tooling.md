@@ -6,15 +6,15 @@
 * ConEmu - Run all terminals in same window with tabs
 
 ## Package managers (choose one)
-* apt-cyg for Cygwin https://github.com/transcode-open/apt-cyg
-* pacman for Git for windows SDK https://github.com/git-for-windows/build-extra/releases
-* pact for Babun ( Preconfigured Cygwin ) http://babun.github.io/
+* [cyg-apt](https://github.com/transcode-open/apt-cyg)
+* [pacman for Git for windows SDK](https://github.com/git-for-windows/build-extra/releases)
+* [pact for Babun ( Preconfigured Cygwin )](http://babun.github.io/)
 
 ## Extras
 * Kdiff3 - Compare files, for example in git.
 * Pandoc - Convert text, spreadsheets to other formats, ie docx-->md, xlsx --> md etc. 
-* Process Explorer - Tells you which program has a file or directory open. <https://technet.microsoft.com/en-us/sysinternals/bb896653>
-* handle - Cmdline equivalence of Process Explorer.
+* [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - Tells you which program has a file or directory open. <https://technet.microsoft.com/en-us/sysinternals/bb896653>
+* [Handle](https://docs.microsoft.com/en-us/sysinternals/downloads/handle) - Cmdline equivalence of Process Explorer.
 
 ## Commands
 * mklink - Create windows link. Run in cmd, for example by running runas cmd from cygwin. 
@@ -33,7 +33,14 @@ A bit outdated: https://howtonode.org/how-to-install-nodejs
 # Windows strategies
 
 ## Downloaded software
-Install all downloaded software into C:\MyPrograms to keep track. Including JDK and JRE.
+Install all downloaded software into C:\MyPrograms to keep track. JDK and JRE are installed under C:\MyPrograms\Java.
+
+## Installing java
+When installing Java SE using Oracles installer, first path you specify is jdk, second is jre. 
+After installing Java
+
+    runas fix_javapath.bat
+Fixes javapath with next two steps (Javahome, Javapath)
 
 ## Javahome
 JAVAHOME points to generic link which in turn points to latest jdk
@@ -46,7 +53,7 @@ JAVAHOME points to generic link which in turn points to latest jdk
 To change oracle-created link to jre (A "hard" directory link, also called Junction), as Admin:
 
     cd C:\ProgramData\Oracle\Java
-    del javapath
+    rmdir javapath
     mklink /J javapath c:\MyPrograms\Java\jdk1.8\bin
 
 # Cygwin
