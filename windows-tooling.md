@@ -17,8 +17,9 @@
 * [Handle](https://docs.microsoft.com/en-us/sysinternals/downloads/handle) - Cmdline equivalence of Process Explorer.
 
 ## Commands
-* mklink - Create windows link. Run in cmd, for example by running runas cmd from cygwin. 
-
+* mklink - Create windows link. Run in cmd, for example by running runas cmd from cygwin.
+* netstat -a -b - Lists ports and who uses them
+* resmon - Starts resource monitor, which shows used ports, memory, disc, etc.
 
 ## Node
 A bit outdated: https://howtonode.org/how-to-install-nodejs

@@ -2,13 +2,19 @@
 
 ## Libs and tools
 * TSLint - checks your TypeScript code for readability, maintainability, and functionality errors
-* webpack - takes modules with dependencies and emits static assets representing those modules.
 * Protractor - is an end-to-end test framework for AngularJS
 * ngrx - Reactive Extensions for angular2
 * Bootstrap - is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 * immutable - Immutable collections for JavaScript
 * core-js - polyfills so that you can use those nifty feature of "modern js" on all browsers
 * Babel - transpiler from ES2015 to backward compat js.
+* npm + webpack vs bower + grunt + gulp.
+* npm - Node packet manager
+* webpack - takes modules with dependencies and emits static assets representing those modules.
+* Bower - Package manager for the web - compare with npm 
+* Grunt - Javascript task runner tool / automation tool, compare with webpack
+* Gulp - Automation tool, compare with webpack
+* Browserify - 
 
 ## Communities
 <https://gitter.im>
