@@ -28,6 +28,11 @@ Fre 07:00-07:45 template binding forms done!
 * Install node to get npm
 * Install angular-cli
     ```npm install -g @angular/cli```
+* Update package.json to latest versions
+
+    npm i -g npm-check-updates
+    npm-check-updates -u
+    npm install
 * Create application
     ```ng new first-app```
 * Start development server
@@ -42,9 +47,9 @@ Fre 07:00-07:45 template binding forms done!
 
 ## Reinstalling angular cli
 
-    npm uninstall -g angular-cli
+    npm uninstall –g @angular/cli angular-cli
     npm cache clean
-    npm install -g angular-cli@latest
+    npm install -g @angular/cli
     
 ## Angular cli commands and flags
 
