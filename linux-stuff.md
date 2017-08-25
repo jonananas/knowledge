@@ -16,3 +16,9 @@ Rename PICT0021.JPG - PICT0099.JPG to PICT0020.JPG - PICT0098.JPG.
 Q: How add automatic padding?
 
     rename 's/(PICT00)(\d+)(\.JPG)/$1.($2-1).$3/e' *
+    
+## awk and sed
+
+Generate YY-MM-DD,#requests from apache access log
+
+    wc -l access_log.2017.* | awk '{print $2" "$1}'|sed 's/.*_log.//g'|sed 's/\./-/g'
