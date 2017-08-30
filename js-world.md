@@ -50,7 +50,6 @@ https://dzone.com/articles/comparison-of-js-frameworks-angularjs-vs-reactjs-v
 
 ## Angular
 
-
 ## npm
 Node package manager, install node and npm gets installed
 npm repository is <https://npmjs.com>
@@ -64,3 +63,6 @@ npm repository is <https://npmjs.com>
 
 ## Framework comparisons
 * Speed and memory consumption per framework: <https://rawgit.com/krausest/js-framework-benchmark/master/webdriver-ts/table.html>
+
+## CORS
+* [Setting CORS on Apache](https://benjaminhorn.io/code/setting-cors-cross-origin-resource-sharing-on-apache-with-correct-response-headers-allowing-everything-through/)

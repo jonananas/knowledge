@@ -16,6 +16,14 @@ List repos https://private-registry.com/v2/_catalog
 
 List tags https://private-registry.com/v2/repo/tags/list
 
+## Restart updated containers (docker-compose)
+To restart all updated containers:
+    
+    docker-compose up -d --build
+    
+To restart a specific updated container
+
+    docker-compose up -d --build <container>
     
 ## List repos i private v2 registry
 

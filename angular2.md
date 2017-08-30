@@ -95,7 +95,7 @@ etc.
 
 ## Dependency injection
 * Can only inject into Decorated entities
-* To Inject service in service, use @Injectable() decorater.
+* To Inject service in service, use @Injectable() decorator.
 
 ## Services
 *Can be used to wrap EventEmitter, so that one component can send and other subscribe from EventEmitter in service.
