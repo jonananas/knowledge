@@ -1,5 +1,11 @@
 # Windows keyboard shortcuts
 
+## Start feature/application
+| Shortcut             | What it does              |
+| -------------------- | ------------------------- |
+| Win +                | Zoom in                   |
+| Win -                | Zoom out                  |
+
 ## Word
 
 | Shortcut             | What it does              |
