@@ -22,14 +22,14 @@
 * resmon - Starts resource monitor, which shows used ports, memory, disc, etc.
 
 ## Node
-A bit outdated: https://howtonode.org/how-to-install-nodejs
+Use [nvm](https://github.com/coreybutler/nvm-windows/releases)
 
-    apt-cyg install openssl gcc-g++ make python git
-    git clone https://github.com/nodejs/node
-    cd node
-    ./configure
-    make
-    sudo make install    
+    cd /cygdrive/c/MyPrograms/nvm 
+    wget https://github.com/coreybutler/nvm-windows/releases/download/1.1.6/nvm-noinstall.zip
+    unzip nvm-noinstall.zip
+    Run install.cmd
+
+Instead of using nvm use <version> which seem to not work under cygwin, you can symlink manually
 
 # Windows strategies
 

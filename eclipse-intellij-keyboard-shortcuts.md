@@ -1,4 +1,4 @@
-# Eclipse and Intellij keyboard shortcuts
+# Eclipse and Intellij keyboard shortcuts on Windows
 
 | IntelliJ             | Eclipse                  | What it does              |
 | -------------------- | ------------------------ | ------------------------- |
@@ -6,9 +6,9 @@
 | Shift-Ctrl-N         | Shift-Ctrl-R             | Open File/Resource       |
 | Ctrl/Cmd->Shift-F12  |                          | Maximize editor pane              |
 |                      | Ctrl-m                   | Maximize current pane             |
-|                      | Ctrl-D                   | Delete current line       |
-| Ctrl-D               | Alt-Ctrl-Up/Dn-Arrow     | Duplicate current line    |
-|                      | Alt-Up/Dn-Arrow          | Move current line up/down   |
+| Ctrl-Y               | Ctrl-D                   | Delete current line       |
+| Ctrl-D               | Alt-Ctrl-Up/Dn           | Duplicate current line    |
+| Alt-Shift-Up/Dn      | Alt-Up/Dn                | Move current line up/down   |
 
 
 # Maven

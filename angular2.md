@@ -61,6 +61,8 @@ Tip: --dry-run
     ng generate class classname
     ng generate directive directivename
     ng generate service servicename
+
+See https://github.com/angular/angular-cli/wiki/build for flags like --prod etc to ng
     
 ## Javascript concepts
 * structural mapping
