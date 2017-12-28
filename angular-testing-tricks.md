@@ -1,4 +1,7 @@
 # Angular testing tricks
+See also https://www.dev6.com/Angular-Unit-Testing-Tips-n-Tricks> for
+* overriding template
+* mocking activatedRoute
 
 ## Unit testing
 
