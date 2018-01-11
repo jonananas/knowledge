@@ -34,13 +34,13 @@ Fre 07:00-07:45 template binding forms done!
     npm i -g npm-check-updates
     npm-check-updates -u
     npm install
-* If experiencing package-lock.json problems
-See https://github.com/npm/npm/issues/16938
-Ensure matching node/npm versions as a team: `node -v` and `npm -v` (and install matching versions if different)
-Remove your node modules: `rm -rf node_modules/`
-Clean your npm cache: `npm cache clean --force`
-Revert the changes in your package-lock.json file (and this file only).
-Install dependencies again: `npm i`
+* If experiencing package-lock.json updates with same conf on different machines
+See https://github.com/npm/npm/issues/16938:
+* Ensure matching node/npm versions as a team: `node -v` and `npm -v` (and install matching versions if different)
+* Remove your node modules: `rm -rf node_modules/`
+* Clean your npm cache: `npm cache clean --force`
+* Revert the changes in your package-lock.json file (and this file only).
+* Install dependencies again: `npm i`
 
 * Create application
     ```ng new first-app```

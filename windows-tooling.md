@@ -15,6 +15,7 @@
 * Pandoc - Convert text, spreadsheets to other formats, ie docx-->md, xlsx --> md etc. 
 * [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - Tells you which program has a file or directory open. <https://technet.microsoft.com/en-us/sysinternals/bb896653>
 * [Handle](https://docs.microsoft.com/en-us/sysinternals/downloads/handle) - Cmdline equivalence of Process Explorer.
+* [windirstat](https://windirstat.net/download.html) - Heatmap of disk usage.
 
 ## Commands
 * mklink - Create windows link. Run in cmd, for example by running runas cmd from cygwin.
