@@ -6,3 +6,6 @@ https://css-tricks.com/a-specificity-battle/
 
 ## Compare specifity
 https://specificity.keegan.st/
+
+## Laws of UX
+https://lawsofux.com/
