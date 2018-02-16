@@ -36,5 +36,6 @@ sudo rpm -i code-latest.el7.x86_64.rpm
 # Install virtualbox
 sudo dnf install kernel-devel gcc make perl elfutils-libelf-devel
 curl -fsS https://download.virtualbox.org/virtualbox/5.2.6/VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm -O
+curl -fsS https://www.virtualbox.org/download/hashes/5.2.6/SHA256SUMS -O
 sudo dnf install ./VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm
 
