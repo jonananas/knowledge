@@ -1,3 +1,6 @@
+# Download and install chrome (download by googling :)
+sudo dnf install ./google-chrome-stable_current_x86_64.rpm
+
 # Setup git
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
