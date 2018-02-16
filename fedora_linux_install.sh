@@ -21,3 +21,10 @@ sudo rpm -i nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
 # Install sky / telred
 sudo dnf --assumeyes install https://tel.red/repos/fedora/27/noarch/telred-fedora-27-latest.fc27.noarch.rpm
 sudo dnf --assumeyes install sky
+
+# Install docker
+sudo dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf install docker-ce
+sudo systemctl start docker
