@@ -13,10 +13,9 @@ sudo dnf install fasd
 
 # Install dropbox
 wget -O nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
-sudo dnf install libgnome
-sudo dnf install pygtk2
-sudo dnf install python-gpgme
-sudo rpm -i nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
+#sudo dnf install libgnome pygtk2 python-gpgme
+#sudo rpm -i nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
+sudo dnf install ./nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
 
 # Install sky / telred
 sudo dnf --assumeyes install https://tel.red/repos/fedora/27/noarch/telred-fedora-27-latest.fc27.noarch.rpm
@@ -29,11 +28,13 @@ sudo dnf config-manager \
 sudo dnf install docker-ce
 sudo systemctl start docker
 
-# Install virtualbox
-curl -fsS https://download.virtualbox.org/virtualbox/5.2.6/VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm -O
-sudo rpm -i VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm
-
 # Install Visual Studio Code
 curl -fsSL --output code-latest.el7.x86_64.rpm https://vscode-update.azurewebsites.net/latest/linux-rpm-x64/stable
 #curl -fsS https://az764295.vo.msecnd.net/stable/f88bbf9137d24d36d968ea6b2911786bfe103002/code-1.20.1-1518536126.el7.x86_64.rpm -O
 sudo rpm -i code-latest.el7.x86_64.rpm
+
+# Install virtualbox
+sudo dnf install kernel-devel gcc make perl elfutils-libelf-devel
+curl -fsS https://download.virtualbox.org/virtualbox/5.2.6/VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm -O
+sudo dnf install ./VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm
+
