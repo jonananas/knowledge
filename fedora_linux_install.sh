@@ -29,6 +29,7 @@ sudo dnf config-manager \
     --add-repo \
     https://download.docker.com/linux/fedora/docker-ce.repo
 sudo dnf install docker-ce
+sudo dnf install docker-compose
 sudo systemctl start docker
 
 # Install Visual Studio Code
