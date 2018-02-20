@@ -1,6 +1,7 @@
 # Windows tools
 
 ## Essentials
+* Chrome
 * Cygwin
 * Git for windows - Preoptimized git for Windows with NTFS
 * ConEmu - Run all terminals in same window with tabs
@@ -59,13 +60,15 @@ To change oracle-created link to jre (A "hard" directory link, also called Junct
     mklink /J javapath c:\MyPrograms\Java\jdk1.8\bin
 
 # Cygwin
+- zsh (use installer)
+- oh-my-zsh - <https://github.com/robbyrussell/oh-my-zsh>
 Use <https://cygwin.com/cgi-bin2/package-grep.cgi> to search for commands, is similar to
 
     apt-cyg searchall fuser
     
 ## Same home for cygwin and windows
 
-Edit /etc/nsswitch.conf, uncomment
+Edit /etc/nsswitch.conf, uncomment (did not work last time)
 
     db_home: windows 
 
