@@ -16,3 +16,7 @@ From https://stackoverflow.com/questions/40928963/access-debugelement-of-nested-
       }
     it...
       expect(subComponentInstance('nw-anmalan').anyValueInComponent).toBe('what you want value to be');
+
+## Approval testing
+Untested tool which does not seem to have integration with protractor or karma, but looks promising
+https://github.com/AppraiseQA/appraise/blob/master/examples/getting-started.md
