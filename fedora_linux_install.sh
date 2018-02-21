@@ -43,3 +43,20 @@ curl -fsS https://download.virtualbox.org/virtualbox/5.2.6/VirtualBox-5.2-5.2.6_
 curl -fsS https://www.virtualbox.org/download/hashes/5.2.6/SHA256SUMS -O
 sudo dnf install ./VirtualBox-5.2-5.2.6_120293_fedora26-1.x86_64.rpm
 
+# Install Oracle Java (download jdk-8u161-linux-x64.rpm from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+sudo dnf install ./jdk-8u161-linux-x64.rpm
+sudo alternatives --install /usr/bin/java java /usr/java/latest/bin/java 200000 
+sudo alternatives --install /usr/bin/javaws javaws /usr/java/latest/bin/javaws 200000
+sudo alternatives --install /usr/lib64/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /usr/java/latest/lib/amd64/libnpjp2.so 20000
+sudo alternatives --install /usr/bin/jvisualvm jvisualvm /usr/java/latest/bin/jvisualvm 200000
+alternatives --config java
+
+# Optional: Install OneDrive https://github.com/skilion/onedrive (only syncs OneDrive, not sharepoint unfortunately. But can be setup to flow to sharepoing, not from)
+sudo dnf install libcurl-devel sqlite-devel
+curl -fsS https://dlang.org/install.sh | bash -s dmd
+source ~/dlang/dmd-2.078.3/activate
+git clone https://github.com/skilion/onedrive.git
+cd onedrive
+make
+sudo make install
+onedrive
