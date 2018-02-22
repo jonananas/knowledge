@@ -32,7 +32,7 @@ sudo dnf install docker-ce
 sudo dnf install docker-compose
 sudo systemctl start docker
 
-# Install Visual Studio Code
+# Install Visual Studio Code (ska finnas repo för denna)
 curl -fsSL --output code-latest.el7.x86_64.rpm https://vscode-update.azurewebsites.net/latest/linux-rpm-x64/stable
 #curl -fsS https://az764295.vo.msecnd.net/stable/f88bbf9137d24d36d968ea6b2911786bfe103002/code-1.20.1-1518536126.el7.x86_64.rpm -O
 sudo rpm -i code-latest.el7.x86_64.rpm
@@ -60,3 +60,6 @@ cd onedrive
 make
 sudo make install
 onedrive
+
+# Gnome settings
+gsettings set org.gnome.desktop.interface clock-show-date true
