@@ -22,3 +22,12 @@ Q: How add automatic padding?
 Generate YY-MM-DD,#requests from apache access log
 
     wc -l access_log.2017.* | awk '{print $2" "$1}'|sed 's/.*_log.//g'|sed 's/\./-/g'
+
+## Locale
+Changing to american UTF-8
+
+    export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8
+
+Changing to american ISO-8859-1
+
+    export LANG=en_US.ISO-8859-1 LC_ALL=en_US.ISO-8859-1
