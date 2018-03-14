@@ -51,6 +51,10 @@ sudo alternatives --install /usr/lib64/mozilla/plugins/libjavaplugin.so libjavap
 sudo alternatives --install /usr/bin/jvisualvm jvisualvm /usr/java/latest/bin/jvisualvm 200000
 alternatives --config java
 
+# Install slack app (you cannot present in slack from browser)
+# Download from https://slack.com/downloads/linux
+sudo dnf install ./slack-3.0.5-0.1.fc21.x86_64.rpm
+
 # Optional: Install OneDrive https://github.com/skilion/onedrive (only syncs OneDrive, not sharepoint unfortunately. But can be setup to flow to sharepoing, not from)
 sudo dnf install libcurl-devel sqlite-devel
 curl -fsS https://dlang.org/install.sh | bash -s dmd
