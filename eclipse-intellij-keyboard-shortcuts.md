@@ -1,4 +1,4 @@
-# Eclipse and Intellij keyboard shortcuts on Windows and Linux
+# Eclipse and Intellij keyboard shortcuts on Windows and Linux (OSX is often just Cmd instead of Ctrl)
 
 | IntelliJ             | Eclipse                  | What it does              |
 | -------------------- | ------------------------ | ------------------------- |
