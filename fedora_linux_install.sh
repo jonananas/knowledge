@@ -67,3 +67,6 @@ onedrive
 
 # Gnome settings
 gsettings set org.gnome.desktop.interface clock-show-date true
+
+# alacarte - Menu editor for the GNOME desktop (to add applications to search menu)
+sudo dnf install alacarte
