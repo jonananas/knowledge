@@ -38,3 +38,5 @@ A > B       # Select childs of A
 :firstchild # Select first child
 ...
 
+# Specificity
+A Specificity Battle! (and other trickery) https://css-tricks.com/a-specificity-battle/
