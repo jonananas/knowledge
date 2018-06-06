@@ -1,4 +1,5 @@
-# Angular 2
+# Angular.io
+# Notes from Angular course
 
 ons 21.30-22.45
 Fre 23:15-23:45
