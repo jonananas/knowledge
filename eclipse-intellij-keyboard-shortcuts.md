@@ -12,7 +12,7 @@
 | Alt-Shift-Up/Dn      | Alt-Up/Dn                | Move current line up/down   |
 | Ctrl-Space           | Ctrl-Space               | Code completion                                       |
 | Alt-Enter            | Ctrl-1                   | Quickfix / Improve Code construct                     |
-|                      | Shift-Alt-o              | Toggle Mark occurences (mark usage of variable)       |
+|                      | Shift-Alt-o (Alt-Cmd-o)  | Toggle Mark occurences (mark usage of variable)       |
 
 
 # Maven

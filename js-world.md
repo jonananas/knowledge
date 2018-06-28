@@ -1,5 +1,8 @@
 # JS-world
 
+## Link collections
+* Superhero.js - Collection of best articles, videos, presentations on creating, testing, maintaining large js codebase
+
 ## Libs and tools
 * TSLint - checks your TypeScript code for readability, maintainability, and functionality errors
 * Protractor - is an end-to-end test framework for AngularJS
@@ -48,8 +51,6 @@ https://dzone.com/articles/comparison-of-js-frameworks-angularjs-vs-reactjs-v
 
 ### Redux with angular
 <https://www.youtube.com/watch?v=BP8NVy1JlRU>
-
-## Angular
 
 ## npm
 Node package manager, install node and npm gets installed
