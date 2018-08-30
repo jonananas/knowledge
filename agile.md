@@ -12,4 +12,8 @@ https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&v
 https://www.youtube.com/watch?v=CostXs2p6r0
 Briljant om jag får säga min mening. Kräver dock indelning i många smågrupper om ni är 200 pers.
 
+# Estimering
+
+Blink Estimation: https://dannorth.net/2013/08/08/blink-estimation/
+
 ## Kanban pizza game

@@ -13,6 +13,8 @@
 | Ctrl-Space           | Ctrl-Space               | Code completion                                       |
 | Alt-Enter            | Ctrl-1                   | Quickfix / Improve Code construct                     |
 |                      | Shift-Alt-o (Alt-Cmd-o)  | Toggle Mark occurences (mark usage of variable)       |
+|                      | Shift-Ctrl-X             | To uppercase                                          |
+|                      | Shift-Ctrl-Y             | To lowercase                                          |
 
 
 # Maven
