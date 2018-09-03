@@ -1,0 +1,2 @@
+# Earth observatory has image of the day, puzzlers etc
+https://earthobservatory.nasa.gov/images/92689/vredefort-crater
