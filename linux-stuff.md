@@ -31,3 +31,6 @@ Changing to american UTF-8
 Changing to american ISO-8859-1
 
     export LANG=en_US.ISO-8859-1 LC_ALL=en_US.ISO-8859-1
+
+## Finding files not encoded in UTF-8
+find . -type f -name "-exec file --exclude=soft {} \;|grep -v UTF-8|grep -v ASCII|awk '{print $2}'
