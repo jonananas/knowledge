@@ -1,5 +1,16 @@
 # Books
+## Readlist:
+- The manager's path
+- Lean
+- Accelerate
+- Growing object oriented design with tests
+- Thinking in Systems, Donella H. Meadows. Recommended reading on Systems thinking by Dan North. https://wtf.tw/ref/meadows.pdf
+- The limits to growth, Donella H. Meadows.
 
+
+
+
+## Coding
 * Secrets of the JavaScript Ninja
 * The web application hackers handbook, https://leaksource.files.wordpress.com/2014/08/the-web-application-hackers-handbook.pdf. Recommended by Dennis.
 * [Scala for the impatient](http://fileadmin.cs.lth.se/scala/scala-impatient.pdf) by Cay Horstmann, recommended by Riccardo Cardin in [Scala Is Dead, Long Live Scala!](https://dzone.com/articles/scala-is-dead-long-live-scala?edition=227181&utm_source=Daily%20Digest&utm_medium=email&utm_campaign=dd%202016-10-14)
