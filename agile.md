@@ -1,3 +1,10 @@
+# Heart of agile
+https://heartofagile.com/
+- Collaborate
+- Deliver
+- Reflect
+- Improve
+
 # Agila övningar
 
 ## vända-mynt:
