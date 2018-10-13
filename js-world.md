@@ -33,6 +33,8 @@ Mozilla Developer Network <https://developer.mozilla.org> Bra ställe att få in
 * Semantic versioning <http://semver.org/>
 
 ## How to pick a web framework
+Comparison of Angular, Vue, React regarding components, css: https://blog.rangle.io/javascript-frameworks-the-year-of-convergence/
+Comparing jQuery to Vue,React,Angular with jQuery and Vue examples: https://academind.com/learn/javascript/jquery-future-angular-react-vue/?utm_content=educational&utm_campaign=2018-07-02&utm_source=email-sendgrid&utm_term=13952972&utm_medium=1561458
 http://www.fse.guru/how-to-pick-a-frontend-web-framework/
 https://dzone.com/articles/comparison-of-js-frameworks-angularjs-vs-reactjs-v
 
