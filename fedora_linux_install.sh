@@ -14,10 +14,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sudo dnf install fasd
 # now add fasd and dnf as plugin in .zshrc manually
 
-# Install dropbox
+# Install dropbox, check https://www.dropbox.com/install?os=lnx for latest version, example:
 wget -O nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
-#sudo dnf install libgnome pygtk2 python-gpgme
-#sudo rpm -i nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
 sudo dnf install ./nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
 
 # Install sky / telred
@@ -28,14 +26,12 @@ sudo dnf --assumeyes install sky
 sudo dnf config-manager \
     --add-repo \
     https://download.docker.com/linux/fedora/docker-ce.repo
-sudo dnf install docker-ce
-sudo dnf install docker-compose
+sudo dnf install docker-ce docker-compose
 sudo systemctl start docker
 
 # Install Visual Studio Code (ska finnas repo för denna)
-curl -fsSL --output code-latest.el7.x86_64.rpm https://vscode-update.azurewebsites.net/latest/linux-rpm-x64/stable
-#curl -fsS https://az764295.vo.msecnd.net/stable/f88bbf9137d24d36d968ea6b2911786bfe103002/code-1.20.1-1518536126.el7.x86_64.rpm -O
-sudo rpm -i code-latest.el7.x86_64.rpm
+wget -O code-latest.el7.x86_64.rpm https://vscode-update.azurewebsites.net/latest/linux-rpm-x64/stable
+sudo dnf install code-latest.el7.x86_64.rpm
 
 # Install virtualbox
 sudo dnf install kernel-devel gcc make perl elfutils-libelf-devel
@@ -55,7 +51,7 @@ alternatives --config java
 # Download from https://slack.com/downloads/linux
 sudo dnf install ./slack-3.0.5-0.1.fc21.x86_64.rpm
 
-# Optional: Install OneDrive https://github.com/skilion/onedrive (only syncs OneDrive, not sharepoint unfortunately. But can be setup to flow to sharepoing, not from)
+# Optional: Install OneDrive https://github.com/skilion/onedrive (only syncs OneDrive, not sharepoint unfortunately. But can be setup to flow to sharepoint, not from)
 sudo dnf install libcurl-devel sqlite-devel
 curl -fsS https://dlang.org/install.sh | bash -s dmd
 source ~/dlang/dmd-2.078.3/activate
