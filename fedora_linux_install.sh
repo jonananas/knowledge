@@ -71,3 +71,7 @@ sudo dnf install alacarte
 system-config-printer
 - press y to install if not already installed
 - Click Add, choose networks printers - follow guide
+
+# Steam
+sudo dnf config-manager --add-repo=http://negativo17.org/repos/fedora-steam.repo
+sudo dnf install steam -y
