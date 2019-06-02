@@ -12,11 +12,12 @@ sudo usermod -s /bin/zsh $USERNAME
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # Logout and login again to have zsh take effect
 sudo dnf install fasd
+# For Fedora 30 - had to download fasd for fedora 29 manually, hopefully fixed in later fedora 30 versions
 # now add fasd and dnf as plugin in .zshrc manually
 
 # Install dropbox, check https://www.dropbox.com/install?os=lnx for latest version, example:
-wget -O nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
-sudo dnf install ./nautilus-dropbox-2015.10.28-1.fedora.x86_64.rpm
+wget -O nautilus-dropbox-2019.02.14-1.fedora.x86_64.rpm https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2019.02.14-1.fedora.x86_64.rpm 
+sudo dnf install ./nautilus-dropbox-2019.02.14-1.fedora.x86_64.rpm
 
 # Install sky / telred
 sudo dnf --assumeyes install https://tel.red/repos/fedora/27/noarch/telred-fedora-27-latest.fc27.noarch.rpm
