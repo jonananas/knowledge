@@ -1,13 +1,16 @@
 # Books
 ## Readlist:
-- The manager's path
 - Lean
-- Accelerate
 - Growing object oriented design with tests
 - Thinking in Systems, Donella H. Meadows. Recommended reading on Systems thinking by Dan North. https://wtf.tw/ref/meadows.pdf
 - The limits to growth, Donella H. Meadows.
+- The manager's path
 
+## Read
+- Accelerate
 
+## Non-prioritizzed readlist
+- The Pragmatic Programmer, 20th Anniversary Edition
 
 
 ## Coding
