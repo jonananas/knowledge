@@ -2,6 +2,7 @@
 
 ## Link collections
 * Superhero.js - Collection of best articles, videos, presentations on creating, testing, maintaining large js codebase
+* https://codesandbox.io - Online Editor with vanilla, react, angular, etc starting templates.
 
 ## Libs and tools
 * TSLint - checks your TypeScript code for readability, maintainability, and functionality errors
