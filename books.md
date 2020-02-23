@@ -6,7 +6,7 @@
 - The limits to growth, Donella H. Meadows.
 - The manager's path
 
-## Read
+## Done Reading
 - Accelerate
 
 ## Non-prioritizzed readlist
