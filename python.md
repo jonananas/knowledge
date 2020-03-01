@@ -10,3 +10,7 @@ Open contemplate_koans.py in your favorite editor and run it, or use run.sh
     cd python_koans/python2
     ./run.sh
 
+# What the f*ck python
+Exploring and understanding Python through surprising snippets.
+
+https://github.com/satwikkansal/wtfpython/blob/master/README.md
