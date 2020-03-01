@@ -9,4 +9,12 @@ https://tldr.hackeryogi.com/
 node.js based programming tool for wiring together hardware devices, APIs and online services
 https://nodered.org/ 
 
+## SaaS application boilerplate
+Create a working SaaS web application, on Python, flask, react, scss, webpack
+https://github.com/saasforge/open-source-saas-boilerpate
+
+## free and open conference management system
+frab is a web-based conference planning and management system. It helps to collect submissions, to manage talks and speakers and to create a schedule. Based on Ruby on Rails.
+http://frab.github.io/frab/
+
 
