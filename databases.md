@@ -9,3 +9,6 @@ You can still get non-repeatable reads, and must plan for it.
 # CAP Theorem guiding choice of database
 IE Availability, Concistency, Partion Tolerance - pick two
 * [Visual Guide to NoSQL Systems](https://blog.nahurst.com/visual-guide-to-nosql-systems)
+
+* PIE Theorem guiding choice of database
+* [Why the PIE theorem is more relevant than the CAP theorem](https://www.alexdebrie.com/posts/choosing-a-database-with-pie/)
