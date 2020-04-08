@@ -1,9 +1,9 @@
 # Lot's of the curves, daily updates, infected, deaths, symptoms, etc...
 https://ourworldindata.org/coronavirus
 
-##Daily deaths nordic countries 
-https://ourworldindata.org/grapher/daily-deaths-covid-19?time=48..64&country=SWE+NOR+DNK+FIN+ISL
-https://ourworldindata.org/grapher/daily-covid-deaths-3-day-average?time=50..70&country=DNK+FIN+NOR+SWE+ISL
+## Daily deaths nordic countries 
+* https://ourworldindata.org/grapher/daily-deaths-covid-19?time=48..64&country=SWE+NOR+DNK+FIN+ISL
+* https://ourworldindata.org/grapher/daily-covid-deaths-3-day-average?time=50..70&country=DNK+FIN+NOR+SWE+ISL
 
 # (2019-nCoV) Data Repository by Johns Hopkins CSSE
 https://github.com/CSSEGISandData/COVID-19 

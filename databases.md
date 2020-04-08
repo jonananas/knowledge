@@ -12,3 +12,9 @@ IE Availability, Concistency, Partion Tolerance - pick two
 
 * PIE Theorem guiding choice of database
 * [Why the PIE theorem is more relevant than the CAP theorem](https://www.alexdebrie.com/posts/choosing-a-database-with-pie/)
+
+# GraphDB
+My understanding is that if you have a problem which is of path query type: “how or what is something connected via some connections to something else” – then a graph database will be easier to use and a lot faster on queries.
+As opposed to tabular data like observations or spectra, where relational or document databases are probably faster and easier to use.
+
+https://dzone.com/articles/performance-graph-vs
