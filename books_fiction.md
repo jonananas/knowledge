@@ -1,12 +1,9 @@
 
 
 # Reading
-- Baptism of Fire
+- Season of Storms
 
 # Going to read
-- The Tower of the Swallow
-- The Lady of the Lake
-- Season of Storms
 
 # Done reading
 ## Andrzej Sapkowski
@@ -14,6 +11,9 @@
 - Sword of Destiny
 - Blood of elves
 - Time of contempt
+- Baptism of Fire
+- The Tower of the Swallow
+- The Lady of the Lake
 
 # Suggestions from Izabella
 - Asimov Isaac, The End of Eternity

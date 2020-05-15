@@ -12,3 +12,7 @@ Notera avsaknaden av verksamhetens testknapp, vinsten är istället
 - teamet får dokumentationen nära koden, domänkunskap manifesteras i junit-tester eller liknande
 - alla tester är inte värda att skapa dokumentation av, endast de som domänexpert bedömer viktig
 
+# Braindump
+Developers heaven, DevHeav
+## skidevi devski
+Bring together people passionate about development and skiing. Introvert people that rather code a kata after a full day of skiing than attend afterski. Well, maybe extroverts and ambiverts are also welcome. And beer. But you need to have an opinion. On anything. And be willing to learn.

@@ -20,6 +20,9 @@ https://www.washingtonpost.com/graphics/2020/world/corona-simulator
 # Swedish self test - do I have coroona?
 https://corona.sll.se/
 
+# Good overview of IVA:s in Sweden and per region
+https://www.svt.se/datajournalistik/corona-i-intensivvarden/
+
 # Stats of infected and deaths in västerbotten
 https://www.vk.se/2020-03-26/grafik-har-sprider-sig-coronaviruset-folj-utvecklingen-i-vasterbotten
 
