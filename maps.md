@@ -4,3 +4,6 @@ Source of most is actually at: http://custom-map-source.appspot.com/
 
 # Convert gpx to kml etc
 https://www.gpsvisualizer.com/convert_input
+
+# Convert gpx waypoints to track
+alltrail.com/converter
