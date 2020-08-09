@@ -1,6 +1,10 @@
 # Lot's of the curves, daily updates, infected, deaths, symptoms, etc...
 https://ourworldindata.org/coronavirus
 
+# Deaths/1M pop per country, second by US state
+https://www.worldometers.info/coronavirus/
+https://www.worldometers.info/coronavirus/country/us/
+
 ## Daily deaths nordic countries 
 * https://ourworldindata.org/grapher/daily-deaths-covid-19?time=48..64&country=SWE+NOR+DNK+FIN+ISL
 * https://ourworldindata.org/grapher/daily-covid-deaths-3-day-average?time=50..70&country=DNK+FIN+NOR+SWE+ISL
