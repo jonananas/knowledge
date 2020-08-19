@@ -2,6 +2,10 @@
 https://ourworldindata.org/coronavirus
 
 # Deaths/1M pop per country, second by US state
+## Map
+https://ourworldindata.org/grapher/total-covid-deaths-per-million
+## Lists
+https://www.statista.com/statistics/1104709/coronavirus-deaths-worldwide-per-million-inhabitants/
 https://www.worldometers.info/coronavirus/
 https://www.worldometers.info/coronavirus/country/us/
 
