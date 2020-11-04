@@ -9,6 +9,9 @@ brew cask install visual-studio-code
 brew cask install mattermost
 brew cask install tunnelblick
 brew cask install dropbox
+brew install dotnet
+brew cask install vlc
+brew cask install iina
 
 # Setup git
 git config --global user.email "you@example.com"
