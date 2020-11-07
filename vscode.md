@@ -1,12 +1,19 @@
-# Visual code cheatsheet
-## Central Keyboard shortcuts
-Cmd-P 		find file
-Shift-cmd-x 	Extensions
-Shift-cmd-e	Reveal file in File Explorer
+# [Visual code](https://code.visualstudio.com/docs) cheatsheet
+## Generic Keyboard shortcuts
+Shortcut        | Command
+-               | -
+Cmd-P           | Find file
+Shift-Cmd-e     | Reveal file in File Explorer 
+Shift-Cmd-O     | Symbols in file
+Alt-Cmd-P       | Open project  
+Shift-Cmd-P     | Commands  
+Shift-Cmd-x     | Extensions
 
-Alt-Cmd-P 	open project
-Shift-Cmd-P	commands
-Shift-Cmd-O	symbols in file
+## [Markdown](https://code.visualstudio.com/docs/languages/markdown)
+Shortcut        | Command
+-               | -
+Shift-Cmd-V     | Show preview
+Cmd-K V         | Preview and code side by side
 
 ## Addons
 Project Manager - easily switch btw project
