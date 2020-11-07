@@ -12,7 +12,7 @@ brew cask install dropbox
 brew install dotnet
 brew cask install vlc
 brew cask install iina
-brew cask install caffeine
+# use caffeinate -t <seconds> instead of caffeine
 
 # Setup git
 git config --global user.email "you@example.com"
