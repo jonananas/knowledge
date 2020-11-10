@@ -5,14 +5,17 @@
 # Install software
 brew cask install iterm2
 brew cask install google-chrome
-brew cask install visual-studio-code
 brew cask install mattermost
 brew cask install tunnelblick
 brew cask install dropbox
-brew install dotnet
 brew cask install vlc
 brew cask install iina
-# use caffeinate -t <seconds> instead of caffeine
+# use caffeinate -d instead of caffeine
+
+# Dev tools
+brew cask install visual-studio-code
+brew install dotnet
+brew install pulumi
 
 # Setup git
 git config --global user.email "you@example.com"
