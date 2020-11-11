@@ -1,5 +1,6 @@
 # Books
 ## Readlist:
+- User Story Mapping - Jeff Patton
 - Lean
 - Growing object oriented design with tests
 - Thinking in Systems, Donella H. Meadows. Recommended reading on Systems thinking by Dan North. https://wtf.tw/ref/meadows.pdf
