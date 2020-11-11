@@ -20,6 +20,8 @@ brew install pulumi
 # Setup git
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+## Do not page git branch
+git config --global pager.branch false
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
