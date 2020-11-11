@@ -11,11 +11,20 @@ brew cask install dropbox
 brew cask install vlc
 brew cask install iina
 # use caffeinate -d instead of caffeine
+brew install md5sha1sum
+# OSX ships with very old bash because of license reasons
+brew install bash
 
 # Dev tools
 brew cask install visual-studio-code
 brew install dotnet
 brew install pulumi
+brew install npm
+brew install java
+## Make openjdk visible to Java wrappers
+sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+brew install maven
+brew install awscli
 
 # Setup git
 git config --global user.email "you@example.com"
