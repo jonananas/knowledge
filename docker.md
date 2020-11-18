@@ -7,6 +7,11 @@
 
 # Useful commands
 
+    # List docker volumes
+    docker volume ls
+    # Remove docker volumes
+    docker volume ls -q | xargs docker volume rm
+
 ## Delete tag in private v1 registry
     curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT
 
@@ -25,12 +30,20 @@ To restart a specific updated container
 
     docker-compose up -d --build <container>
     
-## List repos i private v2 registry
+## List repos in private v2 registry
 
 ## Docker volumes
 Mounts filesystem from host on container, meaning container_dir is hidden 
 
     –v <hostdir>:<container_dir>
+
+# Docker Desktop - Mac
+
+    # Data, images, volumes, etc (/var/lib/Docker on Linux?)
+    ~/Library/Containers/com.docker.docker
+    # Settings, conf
+    ~/.docker
+
 
 # Docker clouds
 * <https://codefresh.io/> is a Docker-native CI/CD platform.
