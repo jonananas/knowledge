@@ -10,6 +10,7 @@ brew cask install tunnelblick
 brew cask install dropbox
 brew cask install vlc
 brew cask install iina
+brew cask install libreoffice
 # use caffeinate -d instead of caffeine
 brew install md5sha1sum
 # OSX ships with very old bash because of license reasons
