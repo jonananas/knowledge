@@ -11,6 +11,8 @@
     docker volume ls
     # Remove docker volumes
     docker volume ls -q | xargs docker volume rm
+    # Start shell in alpine container with current dir mounted as /app
+    docker run -it --rm --mount type=bind,source="$(pwd)",target=/app alpine /bin/ash
 
 ## Delete tag in private v1 registry
     curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT
