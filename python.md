@@ -14,3 +14,24 @@ Open contemplate_koans.py in your favorite editor and run it, or use run.sh
 Exploring and understanding Python through surprising snippets.
 
 https://github.com/satwikkansal/wtfpython/blob/master/README.md
+
+
+# PIP
+## Typical deps
+pip3 install virtualenv
+
+## Typical cmds
+
+    # Show installed packages including paths
+    pip3 list -v
+    # Details including path to installed package
+    pip3 show <pkg>, pip3 show virtualenv 
+
+## Virtual environments
+Can be put anywhere, ie ~/venv/myenv
+
+    # Create
+    python3 -m venv ~/venv/myenv
+    # activae
+    source ~/venv/myenv/bin/activate
+    # deactivate

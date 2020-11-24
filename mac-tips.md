@@ -10,3 +10,11 @@
 
 ### Enable zoom with Ctrl-pad: 
 > System Settings → Accessibility→ Zoom: Enable “use scroll gesture with modifier keys to zoom”
+
+
+# Cmdline tools
+
+    # Check which process is using a file/directory/drive
+    fuser <path>
+    # List all open files
+    lsof
