@@ -30,6 +30,10 @@ NOTE: Does not show editors of each file in directory or subdirectories.
 
     git log --follow --pretty=format:"%ae" . |sort|uniq
     
+## Rename file, for example when changing case when inorecase=true
+
+    git mv <from> <to>
+
 ## Patching
 ### Create patch from diff
     git diff -p -w > /tmp/source.patch

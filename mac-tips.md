@@ -4,6 +4,12 @@
 
     caffeinate -d
 
+### Check wifi ip
+
+    ipconfig getifaddr en0
+    # this works also on linux, windows
+    ifconfig | sed -En 's/.*inet (([0-9]+\.*){4}).*/\1/p' | egrep -v "^127.*"
+
 ## Settings
 ### Maximize window keyboard shortcut:
 > System Settings → Keyboard → Shortcuts → App Shortcuts: + Zoom, Cmd-Opt-m

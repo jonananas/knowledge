@@ -14,3 +14,7 @@ More info at https://codefresh.io/kubernetes-tutorial/local-kubernetes-mac-minik
 ## Links
 - Get started dockerLab https://birthday.play-with-docker.com/kubernetes-docker-desktop/
 - Get started with Jobs https://kubernetes.io/docs/concepts/workloads/controllers/job/
+
+
+## Comparisons
+- K8S vs ECS: https://bluesentryit.com/kubernetes-versus-amazon-ecs-a-peculiar-comparison/
