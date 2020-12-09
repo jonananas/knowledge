@@ -19,7 +19,7 @@
 ## Pull branch other than current
 While on dev, cmd below will pull master to master
 
-	git pull origin master:master
+	git fetch origin master:master
     
 ## Delete remote branch
     git push origin --delete <branch_name>
