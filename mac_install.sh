@@ -18,7 +18,9 @@ brew install bash
 
 # Dev tools
 brew cask install visual-studio-code
-brew install dotnet
+#brew install dotnet
+brew install dotnet-sdk
+brew install nuget
 brew install pulumi
 brew install npm
 brew install java
