@@ -13,6 +13,12 @@ Cmd-K Z         | Zen Mode (Esc Esc to exit)
 Opt-Up/Dn       | Move line up/down
 Shift-Opt-Up/Dn | Copy line up/down
 
+## Comments
+Shortcut        | Command
+-               | -
+Cmd-K Cmd-C     | Block comment
+Cmd-K Cmd-U     | Block uncomment
+
 ## [Markdown](https://code.visualstudio.com/docs/languages/markdown)
 Shortcut        | Command
 -               | -
