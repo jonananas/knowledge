@@ -1,4 +1,5 @@
 # Why Go - by Carmen Andoh
+https://www.youtube.com/watch?v=bmZNaUcwBt4
 ## Overall impression
 Good presentation, with some really good pointers (like programming language genealogy). Not as good ending though, a better wrapup and conclusion that answers the questions would have been good.
 I came away with the impression of many loose interesting ideas, but no clear answer to why.
@@ -49,4 +50,4 @@ First entry is where downloads are located. Second is additional path to look fo
     go run Main.go
     go build github.com/jonananas/firstapp # --> $GOPATH
     go install github.com/jonananas/firstapp # --> $GOPATH/bin
-    go get 
+    go mod init github.com/jonananas/greetings # --> create module, ie go.mod file
