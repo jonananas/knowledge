@@ -28,6 +28,9 @@ https://www.washingtonpost.com/graphics/2020/world/corona-simulator
 # Swedish self test - do I have coroona?
 https://corona.sll.se/
 
+# How long will tests be positive?
+54% positive after 10-14 days, some up to 46 days according to https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01810-8
+
 # Good overview of IVA:s in Sweden and per region
 https://www.svt.se/datajournalistik/corona-i-intensivvarden/
 
