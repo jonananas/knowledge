@@ -29,7 +29,8 @@ https://www.washingtonpost.com/graphics/2020/world/corona-simulator
 https://corona.sll.se/
 
 # How long will tests be positive?
-54% positive after 10-14 days, some up to 46 days according to https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01810-8
+- 54% positive after 10-14 days, some up to 46 days according to https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-020-01810-8
+- Positive PCR does not mean active virus according to https://www.researchgate.net/publication/341427575_Testing_Dilemmas_Post_negative_positive_SARS-CoV-2_RT-PCR_-_is_it_a_reinfection
 
 # Good overview of IVA:s in Sweden and per region
 https://www.svt.se/datajournalistik/corona-i-intensivvarden/
