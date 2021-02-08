@@ -26,5 +26,15 @@ Shift-Cmd-V     | Show preview
 Cmd-K V         | Preview and code side by side
 Cmd-K Cmd-F     | Format table (Markdown table prettifier)
 
+## Search/Replace
+Shortcut    | Command
+------------|----------------------------
+Shift-Cmd-L | Mark all matches for change
+Cmd-F       | Find in file
+Opt-Cmd-F   | Replace in file
+Shift-Cmd-F | Find in all files
+Shift-Cmd-H | Replace in all files
+
+
 ## Addons
 Project Manager - easily switch btw project
