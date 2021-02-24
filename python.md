@@ -15,6 +15,8 @@ Exploring and understanding Python through surprising snippets.
 
 https://github.com/satwikkansal/wtfpython/blob/master/README.md
 
+# Tools
+- pycodestyle <files> to lint, available also in vscode
 
 # PIP
 ## Typical deps
