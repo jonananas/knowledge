@@ -15,6 +15,7 @@ brew cask install libreoffice
 brew install md5sha1sum
 # OSX ships with very old bash because of license reasons
 brew install bash
+brew install git-lfs
 
 # Dev tools
 brew cask install visual-studio-code

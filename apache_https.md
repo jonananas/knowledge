@@ -1,5 +1,7 @@
 # Apache HTTPS
 
+## Links
+- mkcert - generates local CA and valid localhost cert: https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/
 ## Check local certificate
     openssl x509 -in server.pem -text -noout
     openssl x509 -in server.crt -text -noout

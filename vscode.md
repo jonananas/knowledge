@@ -38,3 +38,6 @@ Shift-Cmd-H | Replace in all files
 
 ## Addons
 Project Manager - easily switch btw project
+
+## Linting
+https://code.visualstudio.com/docs/python/linting#_specific-linters
