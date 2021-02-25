@@ -46,6 +46,17 @@ Mounts filesystem from host on container, meaning container_dir is hidden
     # Settings, conf
     ~/.docker
 
+## Configure google dns
+- Change below, specifically dns, in Preferences->Docker Engine to add google dns 8.8.8.8
+{
+  "features": {
+    "buildkit": true
+  },
+  "experimental": false,
+  "dns": [
+    "192.168.65.1", "8.8.8.8"
+  ]
+}
 
 # Docker clouds
 * <https://codefresh.io/> is a Docker-native CI/CD platform.
