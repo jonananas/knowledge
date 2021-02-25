@@ -34,6 +34,8 @@ brew install jq
 # Setup git
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+## Get maxline support, highlighing, etc
+echo "syntax on" >> ~/.vimrc 
 ## Do not page git branch
 git config --global pager.branch false
 
