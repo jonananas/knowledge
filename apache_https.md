@@ -27,6 +27,16 @@ Create input.utf8 with
 * Email (empty line)
 
     openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt < input.utf8
+
+## Generate self-signed cert for localhost supporting chrome proceed button
+- The key being extendedKeyUsage=serverAuth, see https://stackoverflow.com/questions/58802767/no-proceed-anyway-option-on-neterr-cert-invalid-in-chrome-on-macos/64309893#64309893
+
+openssl req -x509 -nodes -days 365 \
+  -newkey rsa:4096 -sha256 \
+  -subj "/CN=localhost" \
+  -addext "subjectAltName=DNS:localhost" \
+  -addext "extendedKeyUsage=serverAuth" \
+  -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt;
      
 ## Complete certificate chain
 Add CA base64-encoded certificate to ca.crt (can be exported from chrome, firefox, ..), and add it to httpd-ssl.conf:
