@@ -34,6 +34,12 @@ Can be put anywhere, ie ~/venv/myenv
 
     # Create
     python3 -m venv ~/venv/myenv
-    # activae
+    # activate
     source ~/venv/myenv/bin/activate
     # deactivate
+
+## Paths and vscode
+- VSCode will use your opened root folder as workspace, meaning it won't find your python modules.
+- One easy fix is adding ```"python.autoComplete.extraPaths": ["./path-to-your-code"],``` to ```.vscode/settings.json```. From [stackoverflow](https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code).
+- Then do Cmd-P ```> reload window```
+- An alternative is PYTHONPATH in .env, but it uses different os,pathsep on Windows and Mac/linux. [Ref](https://code.visualstudio.com/docs/python/environments#_use-of-the-pythonpath-variable)

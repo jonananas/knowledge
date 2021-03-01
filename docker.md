@@ -54,9 +54,14 @@ Mounts filesystem from host on container, meaning container_dir is hidden
   },
   "experimental": false,
   "dns": [
-    "192.168.65.1", "8.8.8.8"
+    "8.8.8.8"
   ]
 }
+
+## Resolvers
+Note that docker and docker-compose uses different resolv.conf, at this time
+docker --> nameserver 192.168.65.1
+docker-compose --> nameserver 127.0.0.11
 
 # Docker clouds
 * <https://codefresh.io/> is a Docker-native CI/CD platform.
