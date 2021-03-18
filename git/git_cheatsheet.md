@@ -1,5 +1,8 @@
 # Git Cheatsheet
 
+## Prune tracking branches
+    git fetch origin --prune
+    git --dry-run fetch origin --prune
 ## Interactive Squash
     git rebase –i <commit id of parent, ie before “your” first commit>
     git rebase -i HEAD~2 # Will squash last two commits

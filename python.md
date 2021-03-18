@@ -43,3 +43,7 @@ Can be put anywhere, ie ~/venv/myenv
 - One easy fix is adding ```"python.autoComplete.extraPaths": ["./path-to-your-code"],``` to ```.vscode/settings.json```. From [stackoverflow](https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code).
 - Then do Cmd-P ```> reload window```
 - An alternative is PYTHONPATH in .env, but it uses different os,pathsep on Windows and Mac/linux. [Ref](https://code.visualstudio.com/docs/python/environments#_use-of-the-pythonpath-variable)
+
+## Asyncio
+
+- Excellent introduyction: https://realpython.com/async-io-python/#the-10000-foot-view-of-async-io
