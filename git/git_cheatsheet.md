@@ -44,3 +44,6 @@ NOTE: Does not show editors of each file in directory or subdirectories.
     git apply /tmp/source-jar.patch
 ### Apply patch on cygwin using git for windows
     git apply `cygpath -w /tmp/source.patch`
+
+## Using git outside git
+Diff:ing with git: ```git diff --no-index <file1> <file2>```
