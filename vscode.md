@@ -41,3 +41,6 @@ Project Manager - easily switch btw project
 
 ## Linting
 https://code.visualstudio.com/docs/python/linting#_specific-linters
+
+## Browse github with vscode in browser
+https://github1s.com/jonananas/knowledge
