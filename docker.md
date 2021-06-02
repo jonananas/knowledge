@@ -14,6 +14,18 @@
     # Start shell in alpine container with current dir mounted as /app
     docker run -it --rm --mount type=bind,source="$(pwd)",target=/app alpine /bin/ash
 
+## Execute on remote machine
+
+    docker context create <name> --docker host=tcp://host.domain.org:2376
+    docker context use <name>
+    docker ps
+    docker context use default
+    docker --context <name> ps
+
+## Copy to container
+
+    docker cp ./file.ext <name>:/
+
 ## Delete tag in private v1 registry
     curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT
 
