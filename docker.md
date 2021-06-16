@@ -26,6 +26,12 @@
 
     docker cp ./file.ext <name>:/
 
+
+## List containers
+Also see https://stackoverflow.com/questions/27380641/see-full-command-of-running-stopped-container-in-docker
+
+    sudo docker ps --no-trunc  --format "table{{.Image}}\t{{.Command}}"
+
 ## Delete tag in private v1 registry
     curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT
 
