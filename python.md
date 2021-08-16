@@ -1,11 +1,12 @@
 # Python
+
 ## Python for Java programmers
 
 http://python4java.necaiseweb.org/
 
 ## Python koans
 
-https://github.com/gregmalcolm/python_koans
+<https://github.com/gregmalcolm/python_koans>
 Make sure you have python installed, below is for python2
 Open contemplate_koans.py in your favorite editor and run it, or use run.sh
 
@@ -24,6 +25,7 @@ https://github.com/satwikkansal/wtfpython/blob/master/README.md
 - __init__.py makes that directory a module
 - PYTHONPATH needs to point to parent directory of modules in that project - no automatic solution found (yet)
 
+[Detailed overview of how the python import system works](https://tenthousandmeters.com/blog/python-behind-the-scenes-11-how-the-python-import-system-works/)
 [Import traps](https://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html)
 
 ## Tools
