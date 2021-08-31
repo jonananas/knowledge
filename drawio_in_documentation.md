@@ -27,4 +27,4 @@ Use Markdown with drawio diagrams embedded in png:s.
 4. Use in markdown at will: ![Example](example.drawio.png) ![Example](example.drawio.svg)
 5. Commit in repo as any documentation.
 
-The drawio xml is stored as metadata in the png.
+The drawio xml is stored in the png/svg.
