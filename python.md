@@ -64,4 +64,10 @@ Can be put anywhere, ie ~/venv/myenv
 
 ### Asyncio
 
-- Excellent introduyction: https://realpython.com/async-io-python/#the-10000-foot-view-of-async-io
+- Excellent introduction: https://realpython.com/async-io-python/#the-10000-foot-view-of-async-io
+
+### Snippets
+
+    ```python
+    print(dir(whatever))
+    ```
