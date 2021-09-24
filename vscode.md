@@ -1,6 +1,9 @@
 # [Visual code](https://code.visualstudio.com/docs) cheatsheet
+
 [OSX Keyboard shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
 ## Generic Keyboard shortcuts
+
 Shortcut        | Command
 ----------------|-----------------------------------
 Cmd-P           | Find file/Quick Open/Go to File... --> Opt-Enter to open in edit mode!
@@ -14,12 +17,14 @@ Opt-Up/Dn       | Move line up/down
 Shift-Opt-Up/Dn | Copy line up/down
 
 ## Comments
+
 Shortcut        | Command
 -               | -
 Cmd-K Cmd-C     | Block comment
 Cmd-K Cmd-U     | Block uncomment
 
 ## [Markdown](https://code.visualstudio.com/docs/languages/markdown)
+
 Shortcut        | Command
 -               | -
 Shift-Cmd-V     | Show preview
@@ -27,6 +32,7 @@ Cmd-K V         | Preview and code side by side
 Cmd-K Cmd-F     | Format table (Markdown table prettifier)
 
 ## Search/Replace
+
 Shortcut    | Command
 ------------|----------------------------
 Shift-Cmd-L | Mark all matches for change
@@ -35,12 +41,14 @@ Opt-Cmd-F   | Replace in file
 Shift-Cmd-F | Find in all files
 Shift-Cmd-H | Replace in all files
 
+## Extensions
 
-## Addons
 Project Manager - easily switch btw project
 
 ## Linting
+
 https://code.visualstudio.com/docs/python/linting#_specific-linters
 
 ## Browse github with vscode in browser
+
 https://github1s.com/jonananas/knowledge

@@ -71,3 +71,10 @@ Can be put anywhere, ie ~/venv/myenv
     ```python
     print(dir(whatever))
     ```
+
+### GTK OSX
+
+```bash
+brew install gtk+3
+pip3 install pygobject
+```
