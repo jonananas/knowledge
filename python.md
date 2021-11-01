@@ -40,10 +40,12 @@ pip3 install virtualenv
 
 ### Typical cmds
 
-    # Show installed packages including paths
-    pip3 list -v
-    # Details including path to installed package
-    pip3 show <pkg>, pip3 show virtualenv 
+```bash
+# Show installed packages including paths
+pip3 list -v
+# Details including path to installed package
+pip3 show <pkg>, pip3 show virtualenv 
+```
 
 ### Virtual environments
 
@@ -70,6 +72,7 @@ Can be put anywhere, ie ~/venv/myenv
 
     ```python
     print(dir(whatever))
+    print(help(whatever))
     ```
 
 ### GTK OSX
@@ -78,3 +81,7 @@ Can be put anywhere, ie ~/venv/myenv
 brew install gtk+3
 pip3 install pygobject
 ```
+
+### Library tips
+
+- [Beautiful Terminal Styling in Python With Rich](https://www.youtube.com/watch?v=4zbehnz-8QU&t=745s)
