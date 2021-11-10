@@ -1,5 +1,9 @@
 # Docker
 
+## Useful rules
+
+- [Dockerfile Build Args Mustn’t Be Used For Secrets](https://www.dudley.codes/posts/2020.12.28-dockerfile-build-args-exposed)
+
 ## Useful docker containers
 
 * <https://github.com/docker/docker-bench-security> - check your container security
