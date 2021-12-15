@@ -20,6 +20,7 @@ brew install git-lfs
 # Dev tools
 brew cask install visual-studio-code
 #brew install dotnet
+#brew install cask dotnet-sdk5-0-400
 brew install dotnet-sdk
 brew install nuget
 brew install pulumi

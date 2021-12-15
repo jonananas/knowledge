@@ -1,5 +1,11 @@
 # Mac tips
-## Generic 
+
+## Generic
+
+### Set default application to VSCode for .py
+
+    duti -s com.microsoft.VSCode .py all
+
 ### Keep display awake - until command stopped
 
     caffeinate -d
@@ -11,26 +17,34 @@
     ifconfig | sed -En 's/.*inet (([0-9]+\.*){4}).*/\1/p' | egrep -v "^127.*"
 
 ## Settings
-### Maximize window keyboard shortcut:
+
+### Maximize window keyboard shortcut
+
 > System Settings → Keyboard → Shortcuts → App Shortcuts: + Zoom, Cmd-Opt-m
 
-### Enable zoom with Ctrl-pad: 
+### Enable zoom with Ctrl-pad
+
 > System Settings → Accessibility→ Zoom: Enable “use scroll gesture with modifier keys to zoom”
-# Cmdline tools
+
+## Cmdline tools
 
     # Check which process is using a file/directory/drive
     fuser <path>
     # List all open files
     lsof
+    # Wait for filesystem changes
+    while true; do fswatch -o . | ./run.sh; done
 
 ## Keyboard shortcuts
 
 ### Chrome
+
 Shortcut    | Command
 ------------|------------------------
 Cmd-Shift-R | Refresh including cache
 
 ### iterm/terminal
+
 Shortcut | Command
 ---------|-------------------------------------
 Esc-b    | Move cursor one word back
