@@ -1,6 +1,16 @@
 
 # AWS tips and tricks
 
+## Cli
+
+```bash
+aws sts get-caller-identity
+aws ec2 describe-instances
+aws logs tail --follow <id>
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].SubnetId' --output text
+aws ec2 describe-instances --filters "Name=subnet-id,Values=<SubnetId>" --query 'Reservations[*].Instances[*].PrivateIpAddress' --output text
+```
+
 ## Links
 
 https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1

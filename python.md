@@ -1,5 +1,11 @@
 # Python
 
+- dataclass
+- property
+- type hints
+- [TypeVar](https://docs.python.org/3/library/typing.html#typing.TypeVar)
+- typing.NewType
+
 ## Python for Java programmers
 
 http://python4java.necaiseweb.org/
@@ -11,8 +17,11 @@ Make sure you have python installed, below is for python2
 Open contemplate_koans.py in your favorite editor and run it, or use run.sh
 
     git clone https://github.com/gregmalcolm/python_koans.git
-    cd python_koans/python2
-    ./run.sh
+    cd python_koans
+    while true; do; fswatch -o . | ./run.sh; done
+    To stop:
+    Ctrl-z
+    kill %1
 
 ## What the f*ck python
 

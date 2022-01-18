@@ -6,18 +6,28 @@
 
 ## Useful docker containers
 
-* <https://github.com/docker/docker-bench-security> - check your container security
-* <https://github.com/CenturyLinkLabs/watchtower> - automatic update of container
-* <https://github.com/lbjay/apache-elk-in-five-minutes> - get elk running in container
+- <https://github.com/docker/docker-bench-security> - check your container security
+- <https://github.com/CenturyLinkLabs/watchtower> - automatic update of container
+- <https://github.com/lbjay/apache-elk-in-five-minutes> - get elk running in container
 
 ## Useful commands
 
-    # List docker volumes
-    docker volume ls
-    # Remove docker volumes
-    docker volume ls -q | xargs docker volume rm
-    # Start shell in alpine container with current dir mounted as /app
-    docker run -it --rm -v "$PWD":/app -w /app alpine /bin/ash
+```bash
+# List docker volumes
+docker volume ls
+
+# Remove docker volumes
+docker volume ls -q | xargs docker volume rm
+
+# Prune
+docker system prune -f
+
+# Start shell in alpine container with current dir mounted as /app
+docker run -it --rm -v "$PWD":/app -w /app alpine /bin/ash
+
+# Show size of each layer in image
+docker history --no-trunc <image-name>
+```
 
 ## Execute on remote machine
 
