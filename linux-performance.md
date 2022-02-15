@@ -40,6 +40,52 @@ performance | Run the CPU at the maximum frequency.
 powersave   | Run the CPU at the minimum frequency.
 schedutil   | Scheduler-driven CPU frequency selection
 
+To activate a particular governor, run `cpupower frequency-set -g governor`
+
+## CPU benchmark
+
+Good tools to see CPU and resource utilization
+
+- System monitor
+  - To help checking if an application is maxing out on resource like cpu, memory, network, etc.
+- top
+  - Helpful commandline utility to do the same, but requires more from the user.
+
+For benchmarking, sysbench can be used, see below for some comparisons.
+The command `sysbench cpu run` will run one thread, e.g. reflects only maximum for one thread. Tools above should reflect CPU usage, but not neccesarily on one core.
+
+```bash
+docker run -ti ubuntu:20.04 bash -c "apt-get update && apt-get install -y sysbench && sysbench cpu run"
+
+Ubuntu 20.04, AMD Ryzen 7 3700X:
+CPU speed:
+    events per second:  2166.81
+
+Ubuntu 20.04 in Virtual Machine on MacBook Pro:
+CPU speed:
+    events per second:  1202.13
+## CPU benchmark
+
+Good tools to see CPU and resource utilization
+
+- System monitor
+  - To help checking if an application is maxing out on resource like cpu, memory, network, etc.
+- top
+  - Helpful commandline utility to do the same, but requires more from the user.
+
+For benchmarking, sysbench can be used, see below for some comparisons.
+The command `sysbench cpu run` will run one thread, e.g. reflects only maximum for one thread. Tools above should reflect CPU usage, but not neccesarily on one core.
+
+```bash
+docker run -ti ubuntu:20.04 bash -c "apt-get update && apt-get install -y sysbench && sysbench cpu run"
+
+Ubuntu 20.04, AMD Ryzen 7 3700X:
+CPU speed:
+    events per second:  2166.81
+
+Ubuntu 20.04 in Virtual Machine on MacBook Pro:
+CPU speed:
+    events per second:  1202.13
 ## CPU benchmark
 
 Good tools to see CPU and resource utilization
@@ -70,4 +116,28 @@ CPU speed:
 Old Algoryx laptop i5 older than gen 8:
 CPU speed:
     events per second:  954.91
+
+Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz in powersave mode
+CPU speed:
+    events per second:   555.44
+
+Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz in performance mode
+CPU speed:
+    events per second:   1291
+
+Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz in performance mode
+CPU speed:
+    events per second:  1600.72
 ```
+
+## Graphic card info
+
+```bash
+sudo apt-get install -y mesa-utils
+glxinfo|grep -i renderer
+OpenGL renderer string: GeForce RTX 2080 Super/PCIe/SSE2
+```
+
+This reflects which graphics card is used for rendering. It the output is not reflecting the graphic card, then it is very possible cpu is used for rendering (slow).
+
+`nvidia-smi` can be used to show graphic card driver details if you have an nvidia card and the nvidia drivers are installed.

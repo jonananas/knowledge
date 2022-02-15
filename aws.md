@@ -7,7 +7,7 @@
 
 ```bash
 aws sts get-caller-identity
-aws logs tail --follow <id>
+aws logs tail --follow <loggroup-id>
 
 aws ec2 describe-instances
 aws ec2 describe-instances --query 'Reservations[*].Instances[*].SubnetId' --output text
