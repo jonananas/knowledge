@@ -40,8 +40,62 @@ https://github.com/satwikkansal/wtfpython/blob/master/README.md
 ## Tools
 
 - pycodestyle <files> to lint, available also in vscode
+- dark???
+
+## Isolating environments and dependencies
+
+- pip
+- virtualenv
+- [poetry](https://python-poetry.org/)
+  - specifies all dependencies in pyproject.toml instead of setup.py + requirements.txt
+  - provides isolation, e.g. no need for virtualenvs
+  - adds cli for starting project, adding dependencies, etc.
+
+## poetry
+
+- pip3 install from git still work with pyproject.toml
+- pip3 install -e . still work with pyproject.toml for pip >= 21.3
+
+Replaces
+
+- setuptools
+- twine
+- setup.py
+- requirements.txt
+
+```bash
+# install dependencies in isolation
+poetry install
+# Step into isolated shell
+poetry shell
+# Run tests
+poetry run pytest
+# Build
+poetry build
+```
 
 ## PIP
+
+## Upgrading pip on Ubuntu
+
+```bash
+apt-get install -y python3-pip
+python3 -m pip install --upgrade pip
+hash -r
+```
+
+Full test:
+```bash
+docker run -ti ubuntu:20.04 bash
+apt-get update
+# will install python3 as well
+apt-get install -y python3-pip
+# upgrade pip
+python3 -m pip install --upgrade pip
+# rehash
+hash -r
+pip3 --version
+```
 
 ### Typical deps
 

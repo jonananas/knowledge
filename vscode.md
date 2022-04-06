@@ -15,6 +15,7 @@ Shift-Cmd-X     | Extensions
 Cmd-K Z         | Zen Mode (Esc Esc to exit)
 Opt-Up/Dn       | Move line up/down
 Shift-Opt-Up/Dn | Copy line up/down
+Ctrl-J          | Merge lines
 
 ## Comments
 
