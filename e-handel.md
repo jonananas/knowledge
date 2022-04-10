@@ -10,6 +10,10 @@ Allt som värderas >50 SEK, du får 40%
 
 ## Köp
 
+### Ikoner
+
+<https://thenounproject.com/icons/>
+
 ### Långfärdsskridskor
 
 <https://pikmakarn.com/>
