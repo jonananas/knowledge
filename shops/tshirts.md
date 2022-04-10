@@ -1,2 +1,0 @@
-teezily.com
-threadless.com
