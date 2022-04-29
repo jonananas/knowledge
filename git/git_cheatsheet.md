@@ -2,19 +2,25 @@
 
 ## Setup git
 
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
+```bash
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 ## Prune tracking branches
 
-    git fetch origin --prune
-    git --dry-run fetch origin --prune
+```bash
+git fetch origin --prune
+git --dry-run fetch origin --prune
+```
 
 ## Rewrite email in history
 
-
-    git config --global alias.change-commits '!'"f() { VAR=\$1; OLD=\$2; NEW=\$3; shift 3; git filter-branch --env-filter \"if [[ \\\"\$\`echo \$VAR\`\\\" = '\$OLD' ]]; then export \$VAR='\$NEW'; fi\" \$@; }; f"
-    git change-commits GIT_AUTHOR_EMAIL "old@email.com" "new@email.com" HEAD~10..HEAD
+```bash
+git config --global alias.change-commits '!'"f() { VAR=\$1; OLD=\$2; NEW=\$3; shift 3; git filter-branch --env-filter \"if [[ \\\"\$\`echo \$VAR\`\\\" = '\$OLD' ]]; then export \$VAR='\$NEW'; fi\" \$@; }; f"
+# Below changesn last 10 commits, it's fine doing <hash>.. instead to change all commits from hash
+git change-commits GIT_AUTHOR_EMAIL "old@email.com" "new@email.com" HEAD~10..HEAD
+```
 
 ## Interactive Squash
 

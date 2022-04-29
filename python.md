@@ -53,6 +53,8 @@ https://github.com/satwikkansal/wtfpython/blob/master/README.md
 
 ## poetry
 
+See [Poetry](poetry.md)
+
 - pip3 install from git still work with pyproject.toml
 - pip3 install -e . still work with pyproject.toml for pip >= 21.3
 
