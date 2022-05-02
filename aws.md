@@ -38,7 +38,6 @@ https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1
 
 [SO Source](https://stackoverflow.com/questions/44391817/is-there-a-way-to-list-all-resources-in-aws/48288505#48288505)
 
-
 ## Services and their purpose
 
 - AWS Lambda:

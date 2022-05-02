@@ -16,12 +16,14 @@ http://python4java.necaiseweb.org/
 Make sure you have python installed, below is for python2
 Open contemplate_koans.py in your favorite editor and run it, or use run.sh
 
+```bash
     git clone https://github.com/gregmalcolm/python_koans.git
     cd python_koans
     while true; do; fswatch -o . | ./run.sh; done
     To stop:
     Ctrl-z
     kill %1
+```
 
 ## What the f*ck python
 
@@ -87,6 +89,7 @@ hash -r
 ```
 
 Full test:
+
 ```bash
 docker run -ti ubuntu:20.04 bash
 apt-get update
@@ -114,13 +117,16 @@ pip3 show <pkg>, pip3 show virtualenv
 
 ### Virtual environments
 
+Prefer [Poetry](poetry.md)!
 Can be put anywhere, ie ~/venv/myenv
 
+```bash
     # Create
     python3 -m venv ~/venv/myenv
     # activate
     source ~/venv/myenv/bin/activate
     # deactivate
+```
 
 ### Paths and vscode
 
@@ -135,10 +141,10 @@ Can be put anywhere, ie ~/venv/myenv
 
 ### Snippets
 
-    ```python
-    print(dir(whatever))
-    print(help(whatever))
-    ```
+```python
+print(dir(whatever))
+print(help(whatever))
+```
 
 ### GTK OSX
 
