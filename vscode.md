@@ -19,18 +19,19 @@ Ctrl-J          | Merge lines
 
 ## Comments
 
-Shortcut        | Command
--               | -
-Cmd-K Cmd-C     | Block comment
-Cmd-K Cmd-U     | Block uncomment
+Shortcut    | Command
+------------|----------------
+Cmd-K Cmd-C | Block comment
+Cmd-K Cmd-U | Block uncomment
+Cmd-/       | Toggle comment
 
 ## [Markdown](https://code.visualstudio.com/docs/languages/markdown)
 
-Shortcut        | Command
--               | -
-Shift-Cmd-V     | Show preview
-Cmd-K V         | Preview and code side by side
-Cmd-K Cmd-F     | Format table (Markdown table prettifier)
+Shortcut    | Command
+------------|-----------------------------------------
+Shift-Cmd-V | Show preview
+Cmd-K V     | Preview and code side by side
+Cmd-K Cmd-F | Format table (Markdown table prettifier)
 
 ## Search/Replace
 
@@ -44,7 +45,7 @@ Shift-Cmd-H | Replace in all files
 
 ## Extensions
 
-Project Manager - easily switch btw project
+Project Manager - easily switch between projects, manages list of your favorite projects. [Marketplace](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
 ## Linting
 

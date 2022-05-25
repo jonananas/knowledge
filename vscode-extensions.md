@@ -1,4 +1,4 @@
-# VSCode Extensions
+# VSCode Extension development
 
 The VSCode team has made it easy to create your own VSCode extensions.
 
