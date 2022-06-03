@@ -16,6 +16,10 @@
     # this works also on linux, windows
     ifconfig | sed -En 's/.*inet (([0-9]+\.*){4}).*/\1/p' | egrep -v "^127.*"
 
+### Check which process is using port
+
+    lsof -nP -iTCP -sTCP:LISTEN | grep <port>
+
 ## Settings
 
 ### Maximize window keyboard shortcut
