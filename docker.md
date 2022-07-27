@@ -31,30 +31,44 @@ docker history --no-trunc <image-name>
 
 ## Execute on remote machine
 
-    docker context create <name> --docker host=tcp://host.domain.org:2376
-    docker context use <name>
-    docker ps
-    docker context use default
-    docker --context <name> ps
+```bash
+docker context create <name> --docker host=tcp://host.domain.org:2376
+docker context use <name>
+docker ps
+docker context use default
+docker --context <name> ps
+```
 
 ## Copy to container
 
-    docker cp ./file.ext <name>:/
+`docker cp ./file.ext <name>:/`
 
 ## Prune
 
-    docker container prune
-    docker image prune
+```bash
+docker container prune
+docker image prune
+```
+
+## Find out container id from within container
+
+See <https://stackoverflow.com/questions/20995351/how-can-i-get-docker-linux-container-information-from-within-the-container-itsel/72565733#72565733>
+
+Basically
+
+- `hostname` or `echo $HOSTNAME`
+- `cat /proc/self/cgroup`
+- `cat /proc/self/mountinfo`
 
 ## List containers with formatted output
 
-Also see https://stackoverflow.com/questions/27380641/see-full-command-of-running-stopped-container-in-docker
+Also see <https://stackoverflow.com/questions/27380641/see-full-command-of-running-stopped-container-in-docker>
 
-    sudo docker ps --no-trunc  --format "table{{.Image}}\t{{.Command}}"
+`sudo docker ps --no-trunc  --format "table{{.Image}}\t{{.Command}}"`
 
 ## Delete tag in private v1 registry
 
-    curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT
+`curl -u 'username:password' -XDELETE https://private-registry.com/v1/repositories/project/tags/1.0.0-SNAPSHOT`
 
 ## v2 private registry
 

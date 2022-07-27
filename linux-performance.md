@@ -113,7 +113,7 @@ AWS t3.small with Amazon Linux:
 CPU speed:
     events per second:  1016.22
 
-Old Algoryx laptop i5 older than gen 8:
+Old laptop i5 older than gen 8:
 CPU speed:
     events per second:  954.91
 
