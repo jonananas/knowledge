@@ -11,7 +11,46 @@ Right-hand system:
 - Y is positive up (green)
 - Z is positive towards us (blue)
 
-(Use AzesHelper to show axes)
+(Use AxesHelper to show axes)
+
+### Environment map from y up to z up, e.g. three.js to AGX
+
+If you use environment maps for three.js, but have z up `THREE.Object3D.DefaultUp.set(0, 0, 1)`
+this is the scheme to create a working environment map:
+
+px → px 90 deg rot CCW
+nx → nx 90 deg rot CW
+py → nz
+ny → pz 180 deg rot
+pz → py
+nz → ny 180 deg rot
+
+If rotating images and keeping names, load with:
+
+```javascript
+const environmentMap = cubeTextureLoader.load([
+'/static/textures/environmentMaps/1/px.jpg',
+'/static/textures/environmentMaps/1/nx.jpg',
+'/static/textures/environmentMaps/1/nz.jpg',
+'/static/textures/environmentMaps/1/pz.jpg',
+'/static/textures/environmentMaps/1/py.jpg',
+'/static/textures/environmentMaps/1/ny.jpg',
+])
+```
+
+instead of
+
+```javascript
+const environmentMap = cubeTextureLoader.load([
+'/static/textures/environmentMaps/1/px.jpg',
+'/static/textures/environmentMaps/1/nx.jpg',
+'/static/textures/environmentMaps/1/py.jpg',
+'/static/textures/environmentMaps/1/ny.jpg',
+'/static/textures/environmentMaps/1/pz.jpg',
+'/static/textures/environmentMaps/1/nz.jpg',
+])
+```
+
 
 ## Camera
 
@@ -67,15 +106,20 @@ gui.add(material, 'metalness').min(0).max(1).step(0.0001)
 
 ## Textures
 
-- [Free seamless PBR textures](https://3dtextures.me/)
-- [Textures at poliigon.com](https://poliigon.com)
-- [Textures at arroway-textures.ch](https://arroway-textures.ch)
+- [Free seamless PBR textures OCC license](https://3dtextures.me/)
+- [More Free seamless PBR textures OCC license](https://polyhaven.com/)
+- [Buy textures at poliigon.com](https://poliigon.com)
+- [Buy Textures at arroway-textures.ch](https://arroway-textures.ch)
 - [TextureLoader](https://threejs.org/docs/?q=textureloader#api/en/loaders/TextureLoader)
 - [Adobe Substance Designer for creating your own](https://www.adobe.com/products/substance3d-designer.html)
 
 ```javascript
 const textureLoader = new THREE.TextureLoader()
 const texture = textureLoader.load('/textures/door/color.jpg')
+
+// If we are loading "seen" (PBR) textures manually we should set sRGBEncoding 
+// (as opposed to textures loaded by GLTFLoader) or normalmap kind of textures
+texture.encoding = THREE.sRGBEncoding
 ```
 
 ## Environment Textures
@@ -188,8 +232,11 @@ Shows where and how lights are.
   - Ported from C++ Bullet.
 - [Cannon.js](https://schteppe.github.io/cannon.js/)
   - Written in JS from scratch
-- [Oimo.js](https://lo-th.github.io/Oimo.js/)
+- [OimoPhysics](https://github.com/saharan/OimoPhysics/)
+  - Written in Haxe, exported as JS
   - More lightweight
+- [Oimo.js](https://lo-th.github.io/Oimo.js/)
+  - JS conversion of old OimoPhysics version (from ActionScript)
 - [Physijs](https://chandlerprall.github.io/Physijs/)
   - Integrates Ammo.js and Three.js
 
@@ -205,3 +252,68 @@ Shows where and how lights are.
 ### Models
 
 - [KhronosGroup example models](https://github.com/KhronosGroup/glTF-Sample-Models)
+
+### Realistic rendering
+
+```javascript
+// Make values between different softwares easier to exchange
+renderer.physicallyCorrectLights = true
+
+// Output encoding is also in order to get software transfer and as physically correct lighting as possible:
+// It's a way to get more out of the 8 bits per color since the human eye percieves steps in dark areas more significant than in light areas.
+renderer.outputEncoding = THREE.sRGBEncoding
+```
+
+For more info on Output Encoding, see
+
+- <https://www.donmccurdy.com/2020/06/17/color-management-in-threejs/>
+- <https://medium.com/@tomforsyth/the-srgb-learning-curve-773b7f68cf7a>
+
+### Shaders
+
+- Vertex Shader - position the geometry vertices on a 2D space, called once per vertex
+- Fragment Shader - Color each visible pixel of the geometry, called once per fragment (i.e. at least once per pixel)
+
+#### Vertex Shaders
+
+- Attributes - different for each vertex
+- Uniforms - same for each vertex
+
+#### Fragment Shaders
+
+- Uniforms - same for each vertex
+- Varying - data from the vertex shader, interpolated between the vertices
+
+#### GLSL
+
+Documentation links:
+
+- <https://www.khronos.org/opengl/wiki/GLSL_:_recommendations>
+- <https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/indexflat.php>
+- <https://shaderific.com/glsl.html>
+- <https://thebookofshaders.com/>
+
+```GLSL
+// Types
+int
+float
+boolean
+vec2
+vec3
+vec4
+
+
+// Typecasting
+float x = float(1)
+
+// Swizzle
+vec foo = vec3(1.0, 2.0, 3.0);
+vec2 bar = foo.zx; // Will contain vec2(3.0, 1.0)
+vec2 bar = foo.rg; // Will contain vec2(1.0, 2.0)
+
+// function
+float add(float a, float b) {
+  return a + b
+}
+
+```

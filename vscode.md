@@ -17,6 +17,19 @@ Opt-Up/Dn       | Move line up/down
 Shift-Opt-Up/Dn | Copy line up/down
 Ctrl-J          | Merge lines
 
+## Editor
+
+Shortcut    | Command
+------------|--------------------
+Shift-Cmd-k | Delete current line
+
+## Terminal
+
+Shortcut | Command
+---------|---------------
+Cmd-J    | Open terminal
+Cmd-k    | Clear terminal
+
 ## Comments
 
 Shortcut    | Command
@@ -36,14 +49,16 @@ Cmd-K Cmd-F | Format table (Markdown table prettifier)
 ## Search/Replace
 
 Shortcut    | Command
-------------|----------------------------
+------------|------------------------------------
 Shift-Cmd-L | Mark all matches for change
 Cmd-F       | Find in file
 Opt-Cmd-F   | Replace in file
 Shift-Cmd-F | Find in all files
 Shift-Cmd-H | Replace in all files
+Cmd-D       | Add next to selection **** Awesome!
+Alt-Click   | Add/Remove a selection (select/unselect Cmd-D selected item)
 
-## Extensions
+## Extensions shortcuts
 
 Project Manager - easily switch between projects, manages list of your favorite projects. [Marketplace](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
@@ -54,3 +69,28 @@ https://code.visualstudio.com/docs/python/linting#_specific-linters
 ## Browse github with vscode in browser
 
 https://github1s.com/jonananas/knowledge
+
+## From VS Code Tips, Tricks & Extensions
+
+By @SonnySanga #papafam, https://www.youtube.com/watch?v=qe7sO2vpRSQ
+
+Cmd-k,Cmd-s Show keyboard shortcuts
+Cmd-, Settings
+
+### Extensions
+
+- Live Share
+- Prettier - Code formatter
+  - Cmd-k, Cmd-f to format document
+- GitLens
+- vscode-icons, only visual
+- ES7+React/Redux/React-Native snip
+  - Probably my most used extension
+- Todo
+  - Highlight TODO/FIXME, and show formatted list of all of them.
+- Tailwind CSS IntelliSense
+  - Autocomplete for css, color boxes, etc.
+- Live Server
+  - Run server with your html-document in a tab in vscode.
+- Import cost
+  - Shows import cost (size of package) of js/ts imports.
