@@ -156,3 +156,20 @@ pip3 install pygobject
 ### Library tips
 
 - [Beautiful Terminal Styling in Python With Rich](https://www.youtube.com/watch?v=4zbehnz-8QU&t=745s)
+
+### Memoization
+
+From <https://docs.python.org/3/library/functools.html#functools.cache>:
+
+```python
+@cache
+def factorial(n):
+    return n * factorial(n-1) if n else 1
+
+>>> factorial(10)      # no previously cached result, makes 11 recursive calls
+3628800
+>>> factorial(5)       # just looks up cached value result
+120
+>>> factorial(12)      # makes two new recursive calls, the other 10 are cached
+479001600
+```

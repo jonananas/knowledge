@@ -7,6 +7,10 @@ By Stroustrup and Sutter
 
 https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main
 
+## Online compiler explorers
+
+[Compiler Explorer](https://godbolt.org/)
+
 ## Conan
 
 Conan is great!
@@ -35,3 +39,16 @@ Call Stack (most recent call first):
   CMakeModules/conanconf.cmake:47 (conan_cmake_install)
   CMakeLists.txt:19 (include)
 ```
+
+## clang-tidy
+
+There is no homebrew for clang-tidy, but it is part of `llvm`. `llvm` is not symlinked (keg only) to prevent collision with XCode tools.
+
+To install then, do:
+
+```bash
+brew install llvm
+ln -s "$(brew --prefix llvm)/bin/clang-tidy" "/usr/local/bin/clang-tidy"
+```
+
+See [stackoverflow](https://stackoverflow.com/questions/53111082/how-to-install-clang-tidy-on-macos) for more info.

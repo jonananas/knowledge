@@ -20,6 +20,16 @@
 
     lsof -nP -iTCP -sTCP:LISTEN | grep <port>
 
+### Workaround for Google Meet adjusting microphone level on Aftershokz devices
+
+Open “Audio MIDI Setup”. Add “Aggregate Device” from + menu: hit the + sign and "Create Aggregate Device". Click the Use box where Input is 1. Select this for input in Google Meet - Done!
+
+From <https://apple.stackexchange.com/questions/97810/mac-osx-microphone-input-volume-level-auto-adjusts-can-it-be-disabled>
+
+### Adjust microphone volume from cmdline
+
+`osascript -e "set volume input volume 50"`
+
 ## Settings
 
 ### Maximize window keyboard shortcut

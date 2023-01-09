@@ -5,6 +5,8 @@
 ```bash
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+# Remove local branches that has been removed on remote
+git config --global fetch.prune true
 ```
 
 ## Prune tracking branches
@@ -13,6 +15,21 @@ git config --global user.name "Your Name"
 git fetch origin --prune
 git --dry-run fetch origin --prune
 ```
+
+## Change diff algorithm to histogram
+
+See [How different are different diff algorithms in Git?
+](https://link.springer.com/article/10.1007/s10664-019-09772-z) for reasons.
+
+`git config --global diff.algorithm histogram`
+
+or once in as merge:
+
+`git merge --strategy-option=diff-algorithm=histogram <branch>`
+
+There is also [](https://medium.com/the-scale-factory/configure-git-to-merge-using-ort-92fc0d450169) that suggests
+
+`git config --global pull.twohead ort`
 
 ## Rewrite email in history
 

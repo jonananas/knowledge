@@ -6,6 +6,10 @@
 - [Physically-Based Rendering, And You Can Too!](https://marmoset.co/posts/physically-based-rendering-and-you-can-too/)
 - [](https://www.a23d.co/blog/pbr-textures-metallic-vs-specular-workflow/)
 
+## Inspirational sofwares
+
+- [Womp](https://www.producthunt.com/posts/womp-alpha) makes 3D easy for anyone, in the browser.
+
 ## PBR
 
 PBR - Physically-Based Rendering - renders images using a real world model of light. As opposed to older methods which did not. The intention is to

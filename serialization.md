@@ -1,5 +1,9 @@
 # Binary serialization, ie Protobuf, flatbuffers
 
+- [zpp::bits - C++ only serialization 25 times faster than protobuf](https://github.com/eyalz800/zpp_bits)
+  - [1hr youtube video](https://www.youtube.com/watch?v=G7-GQhCw8eE)
+  - Not interoperable, but very fast "no overhead".
+  - Experimental 2.5 slower and incomplete protobuf support.
 - [FBE with comparison chart](https://chronoxor.github.io/FastBinaryEncoding/)
   - Fast, small, but not as mature as below. Ie no apt-get, brew install, etc.
 - [Comparison from flatbuffers](https://google.github.io/flatbuffers/flatbuffers_benchmarks.html)
