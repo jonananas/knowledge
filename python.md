@@ -173,3 +173,18 @@ def factorial(n):
 >>> factorial(12)      # makes two new recursive calls, the other 10 are cached
 479001600
 ```
+
+## Using C++ libraries
+
+### OSX
+
+Library needs to be MODULE, ie have extension .so. You can rename .dylib to .so as a shortcut.
+set PYTHONPATH to directory of .so file, then just import it.
+
+Example for mylib.so:
+
+```bash
+export PYTHONPATH=$PWD/lib
+python3
+import mylib
+```

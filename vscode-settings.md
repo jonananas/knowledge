@@ -1,21 +1,26 @@
 # VSCode settings
 
-# Where
+## Where
+
 - Global - Cmd-P, >Preferences: Open Settings (JSON)
 - Project - project-root/.vscode/settings.json
 
 You probably need to Cmd-P, >Reload window before it taking effect
 
-# Newline at end of file
-- Why: Get rid of "No newline at end of file" warnings in diffs etc
-What: ```"files.insertFinalNewline": true```
-- Where: Global
-- Link: History and how on other editors: https://thoughtbot.com/blog/no-newline-at-end-of-file
+## Insert newline at end of file
 
-# Python Linting
+- Why: Get rid of "No newline at end of file" warnings in diffs etc
+What: ```"files.insertFinalNewline": true``` in User Settings (JSON) - or search for insertFinalNewline in User Settings.
+- Where: Global
+- Link: History and how on other editors: <https://thoughtbot.com/blog/no-newline-at-end-of-file>
+- Link: How to set in VSCode <https://stackoverflow.com/questions/44704968/visual-studio-code-insert-newline-at-the-end-of-files>
+
+## Python Linting
+
 - Why: Get lint errors and warnings in editor for all python directories in project  
 - Note: This is preferred to pythonpath because its platform agnostic. Pythonpath has different separators on different platforms.  
 What: 
+
 ```
 {
     "python.linting.enabled": true,
@@ -30,12 +35,15 @@ What:
     ],
 }
 ```
-- Where: Project
-- Link: 
 
-# Pytest
+- Where: Project
+- Link:
+
+## Pytest
+
 - Why: Run Python Tests in VSCode
 What:
+
 ```
 {
     "python.testing.pytestArgs": [
@@ -46,5 +54,6 @@ What:
     "python.testing.pytestEnabled": true
 }
 ```
+
 - Where: Project
 - Link: ???

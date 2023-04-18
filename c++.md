@@ -52,3 +52,4 @@ ln -s "$(brew --prefix llvm)/bin/clang-tidy" "/usr/local/bin/clang-tidy"
 ```
 
 See [stackoverflow](https://stackoverflow.com/questions/53111082/how-to-install-clang-tidy-on-macos) for more info.
+

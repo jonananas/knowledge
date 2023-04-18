@@ -11,3 +11,8 @@ https://earthobservatory.nasa.gov/images/92689/vredefort-crater
 ## Aurora forecast
 
 https://www.gi.alaska.edu/monitors/aurora-forecast
+
+
+## Video editing tools
+
+Davinci Resolve, free and awesome apparently

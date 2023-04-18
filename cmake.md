@@ -8,10 +8,7 @@ CMake is the buildtool
 - [gRPC and Protobuf support in CMake](https://www.f-ax.de/dev/2020/11/08/grpc-plugin-cmake-support.html)
 
 
-## Multiconfig builds
-
-These are equivalent
-
+## Multiconfig builds These are equivalent
 ```bash
     - cmake -D CMAKE_INSTALL_PREFIX=./build/install -DCMAKE_GENERATOR="Ninja Multi-Config" -DCPACK_GENERATOR=DEB $EXTRA_PARAMS -B build cpp-src
     - cmake --build build --config Release
