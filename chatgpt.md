@@ -15,6 +15,7 @@
 - DALL-E - text to 2D
 - Stable diffusion - text to 2D
 - Point-E - text to 3D
+- <https://www.chartgpt.dev/> - text to chart
 
 ## LLM
 

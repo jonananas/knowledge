@@ -31,20 +31,22 @@ poetry install
 Creating virtualenv myproject-Sco6aV2r-py3.10...
 ...
 poetry shell
-(myproject-Sco6aV2r-py3.10) ➜  myproject python3 --version
+(myproject-Sco6aV2r-py3.10) ➜ python3 --version
 Python 3.10.2
 ```
 
 Workaround: `poetry env use`:
 
 ```bash
+-> poetry env list
+-> poetry env remove <name of env>
 ➜  myproject poetry env use /usr/local/opt/python@3.9/bin/python3
 Creating virtualenv myproject-Sco6aV2r-py3.9 ...
-(myproject-Sco6aV2r-py3.9) ➜  myproject python3 --version
+(myproject-Sco6aV2r-py3.9) ➜ python3 --version
 Python 3.9.12
 ```
 
-NOTE: If I try a version other than system, poetry install will fail with an appropriate message, which it what led me to the workaround.
+NOTE: If I try a version other than system, poetry install will fail with an appropriate message, which is what led me to the workaround.
 
 #### Poetry publish in GitLab CI
 
