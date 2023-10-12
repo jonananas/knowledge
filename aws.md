@@ -30,7 +30,8 @@ aws ecs describe-tasks --cluster <clustername> --task [arn|taskID] --query 'task
 
 ## Links
 
-https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1
+[AWS Networking Concepts mindmap](https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/)
+[AWS Console EU-WEST-1](https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1)
 
 ## List all resources agross all regions
 
@@ -47,3 +48,9 @@ https://eu-west-1.console.aws.amazon.com/ec2/v2/home?region=eu-west-1
 - [AWS Batch](https://eu-west-1.console.aws.amazon.com/batch/home?region=eu-west-1#)
   - <https://aws.amazon.com/blogs/aws/aws-batch-run-batch-computing-jobs-on-aws/>
 
+- [AWS Bedrock](https://aws.amazon.com/bedrock/):
+  - service that makes models from Amazon and leading AI startups available through an API
+  - customize model with own data
+  - integrate and deploy into your application
+- [Agents for AWS Bedrock](https://aws.amazon.com/blogs/aws/preview-enable-foundation-models-to-complete-tasks-with-agents-for-amazon-bedrock):
+  - create fully managed agents in a few clicks

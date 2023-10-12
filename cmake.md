@@ -26,3 +26,21 @@ and
     - ninja install -f build-Release.ninja
     - ninja package -f build-Release.ninja
 ```
+
+## Debug/Trace cmake
+
+```bash
+cmake . --trace-source=FindagxROS2.cmake --trace-expand
+```
+
+## Print out all variables in cmake script
+
+From <https://stackoverflow.com/questions/9298278/cmake-print-out-all-accessible-variables-in-a-script>
+
+```bash
+get_cmake_property(_variableNames VARIABLES)
+list (SORT _variableNames)
+foreach (_variableName ${_variableNames})
+    message(STATUS "${_variableName}=${${_variableName}}")
+endforeach()
+```

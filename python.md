@@ -115,7 +115,21 @@ pip3 list -v
 pip3 show <pkg>, pip3 show virtualenv 
 ```
 
-### Virtual environments
+### Pip and Python-specific versions with HomeBrew (OSX)
+
+Unfortunately `brew link python3@9` does not work (`brew link python@3.11` does).
+In order to have python3.9 or whatever version as python3, do:
+
+```bash
+rm pip3 pydoc3 python3 python3-config wheel3
+ ln -s ../Cellar/python@3.9/3.9.12/bin/python3.9 python3
+ ln -s ../Cellar/python@3.9/3.9.12/bin/pip3.9 pip3
+ ln -s ../Cellar/python@3.9/3.9.12/bin/pydoc3.9 pydoc3
+ ln -s ../Cellar/python@3.9/3.9.12/bin/python3.9-config python3-config
+ ln -s ../Cellar/python@3.9/3.9.12/bin/wheel3.9 wheel3
+```
+
+## Virtual environments
 
 Prefer [Poetry](poetry.md)!
 Can be put anywhere, ie ~/venv/myenv
@@ -128,14 +142,14 @@ Can be put anywhere, ie ~/venv/myenv
     # deactivate
 ```
 
-### Paths and vscode
+## Paths and vscode
 
 - VSCode will use your opened root folder as workspace, meaning it won't find your python modules.
 - One easy fix is adding ```"python.autoComplete.extraPaths": ["./path-to-your-code"],``` to ```.vscode/settings.json```. From [stackoverflow](https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code).
 - Then do Cmd-P ```> reload window```
 - An alternative is PYTHONPATH in .env, but it uses different os,pathsep on Windows and Mac/linux. [Ref](https://code.visualstudio.com/docs/python/environments#_use-of-the-pythonpath-variable)
 
-### Asyncio
+## Asyncio
 
 - Excellent introduction: https://realpython.com/async-io-python/#the-10000-foot-view-of-async-io
 
@@ -188,3 +202,9 @@ export PYTHONPATH=$PWD/lib
 python3
 import mylib
 ```
+
+## Wheels
+
+Use `pip3 debug` to see which tags are supported.
+On Linux `auditwheel show file.whl` can be used to inspect a wheel. <https://pypi.org/project/auditwheel/1.0.0/>
+Manylinux can be used to build as compatible as possible wheels.
