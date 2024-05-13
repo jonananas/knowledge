@@ -19,9 +19,7 @@ brew install git-lfs
 
 # Dev tools
 brew cask install visual-studio-code
-#brew install dotnet
-#brew install cask dotnet-sdk5-0-400
-brew install dotnet-sdk
+brew install isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-100
 brew install nuget
 brew install pulumi
 brew install npm
@@ -31,6 +29,10 @@ sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtua
 brew install maven
 brew install awscli
 brew install jq
+
+# Python
+brew install python@3.9 python@3.11
+pip3.9 install poetry
 
 # Setup git
 git config --global user.email "you@example.com"

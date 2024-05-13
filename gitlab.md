@@ -1,4 +1,12 @@
-# Use Docker to build Docker images
+# GitLab
+
+To skip pipeline for a push, i.e. when changing documentation, push with -o:
+
+`git push -o ci.skip`
+
+From <https://docs.gitlab.com/ee/ci/pipelines/#skip-a-pipeline>
+
+## Use Docker to build Docker images
 
 https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#limitations-of-docker-in-docker
 

@@ -54,3 +54,11 @@ aws ecs describe-tasks --cluster <clustername> --task [arn|taskID] --query 'task
   - integrate and deploy into your application
 - [Agents for AWS Bedrock](https://aws.amazon.com/blogs/aws/preview-enable-foundation-models-to-complete-tasks-with-agents-for-amazon-bedrock):
   - create fully managed agents in a few clicks
+
+
+## Calculating EC2 costs
+
+- Check instance details at <https://aws.amazon.com/ec2/instance-types/>
+- Create estimate at <https://calculator.aws>
+  - Select EC2
+  - Search instance type from above
