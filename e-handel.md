@@ -20,5 +20,7 @@ Allt som värderas >50 SEK, du får 40%
 
 ### T-shirt shops
 
-teezily.com
-threadless.com
+[teezily.com](https://www.teezily.com/en)
+[threadless.com](https://www.threadless.com/)
+[Qwertee](https://www.qwertee.com/)
+[dls-store](https://dls-store.com/)

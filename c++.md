@@ -15,6 +15,10 @@ https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main
 
 Conan is great!
 
+### Empty cache
+
+Conan 1.x: `conan remove '*'` or `conan remove -f '*'` to remove without confirming
+
 ### Errors
 
 When below happens it might be hard to spot that `new settings.yml has been stored in: /Users/jonas/.conan/settings.yml.new`
