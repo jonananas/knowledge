@@ -2,7 +2,7 @@
 
 ## When creating a new project
 
-- [Prefer `pyproject.toml`](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/) before `setup.py` + `requirements.txt`. 
+- [Prefer `pyproject.toml`](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/) before `setup.py` + `requirements.txt`.
 - Make sure you are using `pip >= 21.3` which supports editable installs from `pyproject.toml`.
 - Use `pycodestyle` linter from the start, easier to fix small problems than a lot later.
 
@@ -131,30 +131,15 @@ A recommendation which is aligned with [poetry docs](https://python-poetry.org/d
 
 NOTE: On Mac Shift-Ctrl-p below should be read as Shift-Cmd-P!
 
-1. Install pycodestyle and autopep8 if not installed: `python3 -m pip install -U pycodestyle autopep8`.
-2. Install the VSCode extenstion Python from Microsoft if not installed, search for id `ms-python.python`
+1. Install the VSCode extension Pylint from Microsoft if not installed, search for id `ms-python.pylint`
+2. Install the VSCode extension Python from Microsoft if not installed, search for id `ms-python.python`
 3. Tip: `pip install -e .` in your project directory (editable install) to make sure that vscode can find your python packages.
   - Or for better isolation, start vscode from `poetry shell`.
-4. Shift-Ctrl-p `Select Linter`, pycodestyle
-    - Lints code on each save and marks it red.
-    - See below to add `pycodestyle` settings, e.g. ignore warnings for long lines
-        ```json
-        "python.linting.pycodestyleArgs": [
-                "--ignore=E501"
-            ],
-        ```
-5. Use Shift-Ctrl-p `Format Document` to automatically format document. Choose format `PEP8`.
-   - See below to not linebreak long lines when formatting document
-        ```json
-        "python.formatting.autopep8Args": [
-            "--max-line-length=180"
-        ], 
-        ```
-6. Automatically add a newline to each source file to make git and gitlab diffs easy to read
+4. Automatically add a newline to each source file to make git and gitlab diffs easy to read
     ```json
         "files.insertFinalNewline": true,
     ```
-7. Automatically remove whitespace at end of lines for same reasons as #6
+5. Automatically remove whitespace at end of lines ("trim trailing whitespace") for same reasons as #6
     ```javascript
         "files.trimTrailingWhitespace": true,
         "[markdown]": {
@@ -168,21 +153,15 @@ Example resulting vscode `settings.json`
 
 ```javascript
 {
-    "files.insertFinalNewline": true,
-    "python.linting.pycodestyleArgs": [
-        "--ignore=E501"
-    ],
-    "python.formatting.autopep8Args": [
-        "--max-line-length=180"
-    ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.pytestArgs": [
         "."
     ],
-    "python.linting.pycodestyleEnabled": true,
-    "python.linting.enabled": true,
+    "pylint.args": ["--disable=C0116", "--max-line-length=150"],
+    "pylint.ignorePatterns": ["oos/*", ".venv/*", "build/*"],
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "[markdown]": {
         // Set to false because Markdown uses double-space

@@ -66,6 +66,13 @@ Project Manager - easily switch between projects, manages list of your favorite 
 
 https://code.visualstudio.com/docs/python/linting#_specific-linters
 
+### Disable specific pylint warnings for project
+
+Add below to `.vscode/settings.json`:
+```json
+"pylint.args": ["--disable=C0116"],
+```
+
 ## Browse github with vscode in browser
 
 https://github1s.com/jonananas/knowledge

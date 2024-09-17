@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install homebrew https://brew.sh/
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install software
 brew cask install iterm2
@@ -11,7 +11,7 @@ brew cask install dropbox
 brew cask install vlc
 brew cask install iina
 brew cask install libreoffice
-# use caffeinate -d instead of caffeine
+# use caffeinate -d instead of caffeine, included in OSX
 brew install md5sha1sum
 # OSX ships with very old bash because of license reasons
 brew install bash
@@ -38,7 +38,7 @@ pip3.9 install poetry
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ## Get maxline support, highlighing, etc
-echo "syntax on" >> ~/.vimrc 
+echo "syntax on" >> ~/.vimrc
 ## Do not page git branch
 git config --global pager.branch false
 
@@ -51,10 +51,10 @@ sed -i .bak "s/\(^plugins=[^)]*\)/\1 fasd/g" .zshrc
 # Alternatively use fish or prezto with brew install fish/prezto
 
 # Create ssh pair for github/gitlab and
-# Enable ssh-agent 
+# Enable ssh-agent
 # https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-# Docker for mac https://hub.docker.com/editions/community/docker-ce-desktop-mac 
+# Docker for mac https://hub.docker.com/editions/community/docker-ce-desktop-mac
 ##	As opposed to manual install - for a tighter integration.
 ##	docker run -d -p 80:80 docker/getting-started
 
