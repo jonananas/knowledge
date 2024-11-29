@@ -2,7 +2,7 @@
 
 ## All ages
 
-- Codeingame.com - Code "any" language in a game setting. Pretty cool!
+- [Codeingame.com](https://www.codingame.com/training) - Code "any" language in a game setting. Pretty cool!
   - Men privacy policy tveksam, sparar LinkedIn-info, ip, etc för att employers ska kunna hitta dig bland annat.
 
 ## Kids

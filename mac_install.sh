@@ -44,9 +44,9 @@ git config --global pager.branch false
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-brew install fasd
-sed -i .bak "s/\(^plugins=[^)]*\)/\1 fasd/g" .zshrc
-# Alt full-line replacement: sed -i .bak "s/^plugins=.*/plugins=(git fasd)/g" .zshrc
+brew install zoxide fzf
+sed -i .bak "s/\(^plugins=[^)]*\)/\1 zoxide/g" .zshrc
+# Alt full-line replacement: sed -i .bak "s/^plugins=.*/plugins=(git zoxide)/g" .zshrc
 
 # Alternatively use fish or prezto with brew install fish/prezto
 
