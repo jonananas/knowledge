@@ -1,16 +1,16 @@
 #!/bin/bash
 # Install homebrew https://brew.sh/
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install software
-brew cask install iterm2
-brew cask install google-chrome
-brew cask install mattermost
-brew cask install tunnelblick
-brew cask install dropbox
-brew cask install vlc
-brew cask install iina
-brew cask install libreoffice
+brew install --cask iterm2
+brew install --cask google-chrome
+brew install --cask mattermost
+brew install --cask tunnelblick
+brew install --cask dropbox
+brew install --cask vlc
+brew install --cask iina
+brew install --cask libreoffice
 # use caffeinate -d instead of caffeine, included in OSX
 brew install md5sha1sum
 # OSX ships with very old bash because of license reasons
@@ -18,7 +18,7 @@ brew install bash
 brew install git-lfs
 
 # Dev tools
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 brew install isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-100
 brew install nuget
 brew install pulumi
