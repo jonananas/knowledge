@@ -5,6 +5,7 @@
 # Install software
 brew install --cask iterm2
 brew install --cask google-chrome
+brew install --cask visual-studio-code
 brew install --cask mattermost
 brew install --cask tunnelblick
 brew install --cask dropbox
