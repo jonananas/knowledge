@@ -17,9 +17,11 @@ brew install md5sha1sum
 # OSX ships with very old bash because of license reasons
 brew install bash
 brew install git-lfs
+brew install 7zip
 
 # Dev tools
 brew install --cask visual-studio-code
+brew install cmake ninja ccache doxygen
 brew install isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-100
 brew install nuget
 brew install pulumi

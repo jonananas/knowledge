@@ -80,6 +80,17 @@ poetry build
 
 ## PIP
 
+### Clean install 3.9
+
+```bash
+➜ pip3.9 list
+Package    Version
+---------- -------
+pip        24.3.1
+setuptools 75.6.0
+wheel      0.45.1
+```
+
 ## Upgrading pip on Ubuntu
 
 ```bash
