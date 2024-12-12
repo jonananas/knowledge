@@ -17,7 +17,7 @@ brew install md5sha1sum
 # OSX ships with very old bash because of license reasons
 brew install bash
 brew install git-lfs
-brew install 7zip
+brew install p7zip
 
 # Dev tools
 brew install --cask visual-studio-code
@@ -60,4 +60,3 @@ sed -i .bak "s/\(^plugins=[^)]*\)/\1 zoxide/g" .zshrc
 # Docker for mac https://hub.docker.com/editions/community/docker-ce-desktop-mac
 ##	As opposed to manual install - for a tighter integration.
 ##	docker run -d -p 80:80 docker/getting-started
-
