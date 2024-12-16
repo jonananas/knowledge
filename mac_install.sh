@@ -19,6 +19,11 @@ brew install bash
 brew install git-lfs
 brew install p7zip
 
+# Image tools
+brew install exif
+brew install --cask XnViewMP # Free for personal use simple image editor, evaluate!
+[Apollo One Photo Video Viewer @ appstore](https://apps.apple.com/se/app/apolloone-photo-video-viewer/id1044484672?l=en-GB&mt=12) # Very fast image viewer
+
 # Dev tools
 brew install --cask visual-studio-code
 brew install cmake ninja ccache doxygen
