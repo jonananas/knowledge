@@ -41,6 +41,10 @@ brew install jq
 # Python
 brew install python@3.9 python@3.11
 pip3.9 install poetry
+brew install duti
+duti -s com.microsoft.VSCode .py all
+osascript -e 'id of app "LibreOffice"'
+duti -s org.libreoffice.script docx all
 
 # Setup git
 git config --global user.email "you@example.com"
