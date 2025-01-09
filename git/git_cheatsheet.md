@@ -35,7 +35,7 @@ There is also [](https://medium.com/the-scale-factory/configure-git-to-merge-usi
 
 ```bash
 git config --global alias.change-commits '!'"f() { VAR=\$1; OLD=\$2; NEW=\$3; shift 3; git filter-branch --env-filter \"if [[ \\\"\$\`echo \$VAR\`\\\" = '\$OLD' ]]; then export \$VAR='\$NEW'; fi\" \$@; }; f"
-# Below changesn last 10 commits, it's fine doing <hash>.. instead to change all commits from hash
+# Below changes last 10 commits, it's fine doing <hash>.. instead to change all commits from hash
 git change-commits GIT_AUTHOR_EMAIL "old@email.com" "new@email.com" HEAD~10..HEAD
 ```
 
