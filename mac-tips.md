@@ -4,6 +4,7 @@
 
 ### Set default application to VSCode for .py
 
+    brew install duti
     duti -s com.microsoft.VSCode .py all
 
 ### Keep display awake - until command stopped
@@ -32,13 +33,17 @@ From <https://apple.stackexchange.com/questions/97810/mac-osx-microphone-input-v
 
 ## Settings
 
-### Maximize window keyboard shortcut
-
-> System Settings → Keyboard → Shortcuts → App Shortcuts: + Zoom, Cmd-Opt-m
-
 ### Enable zoom with Ctrl-pad
 
 > System Settings → Accessibility→ Zoom: Enable “use scroll gesture with modifier keys to zoom”
+
+### Enable Move focus to next window (with swedish keyboard)
+
+System Settings -> Keyboard -> Keyboard Shortcuts -> Keyboard -> Move focus to next window. Map it to Cmd-§
+
+### Maximize window keyboard shortcut
+
+> System Settings → Keyboard → Shortcuts → App Shortcuts: + Zoom, Cmd-Opt-m
 
 ## Cmdline tools
 
