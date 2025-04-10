@@ -123,7 +123,7 @@ pip3 install virtualenv
 # Show installed packages including paths
 pip3 list -v
 # Details including path to installed package
-pip3 show <pkg>, pip3 show virtualenv 
+pip3 show <pkg>, pip3 show virtualenv
 ```
 
 ### Pip and Python-specific versions with HomeBrew (OSX)
@@ -219,3 +219,9 @@ import mylib
 Use `pip3 debug` to see which tags are supported.
 On Linux `auditwheel show file.whl` can be used to inspect a wheel. <https://pypi.org/project/auditwheel/1.0.0/>
 Manylinux can be used to build as compatible as possible wheels.
+
+
+## Libraries
+
+- pydantic, define data objects and validate them, store to json, read from json, show json schema, etc
+- logfire, observability platform

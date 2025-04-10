@@ -49,10 +49,12 @@ duti -s org.libreoffice.script docx all
 # Setup git
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-## Get maxline support, highlighing, etc
-echo "syntax on" >> ~/.vimrc
 ## Do not page git branch
 git config --global pager.branch false
+## assume --set-upstream on default push
+git config --global --type bool push.autoSetupRemote true
+## Get maxline support, highlighing, etc
+echo "syntax on" >> ~/.vimrc
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
