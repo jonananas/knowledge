@@ -15,4 +15,4 @@ alltrail.com/converter
 
 ## Edit GPX track in browser with map
 
-<https://gpx.studio>
+<https://gpx.studio> or <https://gpx.studio/app>

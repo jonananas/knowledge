@@ -108,6 +108,7 @@ gui.add(material, 'metalness').min(0).max(1).step(0.0001)
 
 - [Free seamless PBR textures OCC license](https://3dtextures.me/)
 - [More Free seamless PBR textures OCC license](https://polyhaven.com/)
+- https://www.spacespheremaps.com/galactic-plane-spheremaps/
 - [Buy textures at poliigon.com](https://poliigon.com)
 - [Buy Textures at arroway-textures.ch](https://arroway-textures.ch)
 - [TextureLoader](https://threejs.org/docs/?q=textureloader#api/en/loaders/TextureLoader)
@@ -117,7 +118,7 @@ gui.add(material, 'metalness').min(0).max(1).step(0.0001)
 const textureLoader = new THREE.TextureLoader()
 const texture = textureLoader.load('/textures/door/color.jpg')
 
-// If we are loading "seen" (PBR) textures manually we should set sRGBEncoding 
+// If we are loading "seen" (PBR) textures manually we should set sRGBEncoding
 // (as opposed to textures loaded by GLTFLoader) or normalmap kind of textures
 texture.encoding = THREE.sRGBEncoding
 ```
@@ -156,7 +157,7 @@ material.transparent = true
 ```javascript
 const material = new THREE.MeshBasicMaterial({
     map: colorTexture,
-    color: 'blue', 
+    color: 'blue',
     wireframe: true
 })
 material.alphaMap = alphaTexture

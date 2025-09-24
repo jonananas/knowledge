@@ -14,6 +14,7 @@
 - https://replit.com/
 - https://v0.dev/
 - https://lovable.dev
+- https://console.firebase.google.com/
 
 ### Video
 

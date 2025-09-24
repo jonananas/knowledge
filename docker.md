@@ -48,6 +48,7 @@ docker --context <name> ps
 ```bash
 docker container prune
 docker image prune
+docker system prune -y
 ```
 
 ## Find out container id from within container
@@ -59,6 +60,10 @@ Basically
 - `hostname` or `echo $HOSTNAME`
 - `cat /proc/self/cgroup`
 - `cat /proc/self/mountinfo`
+
+## docker compose
+
+To see full build logs: `BUILDKIT_PROGRESS=plain docker compose build`
 
 ## List containers with formatted output
 
@@ -76,21 +81,21 @@ List repos https://private-registry.com/v2/_catalog
 
 List tags https://private-registry.com/v2/repo/tags/list
 
-## Restart updated containers (docker-compose)
+## Restart updated containers (docker compose)
 
 To restart all updated containers:
 
-    docker-compose up -d --build
+    docker compose up -d --build
 
 To restart a specific updated container
 
-    docker-compose up -d --build <container>
+    docker compose up -d --build <container>
 
 ## List repos in private v2 registry
 
 ## Docker volumes
 
-Mounts filesystem from host on container, meaning container_dir is hidden 
+Mounts filesystem from host on container, meaning container_dir is hidden
 
     –v <hostdir>:<container_dir>
 
