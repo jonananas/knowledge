@@ -27,6 +27,11 @@ Open “Audio MIDI Setup”. Add “Aggregate Device” from + menu: hit the + s
 
 From <https://apple.stackexchange.com/questions/97810/mac-osx-microphone-input-volume-level-auto-adjusts-can-it-be-disabled>
 
+
+### Fix Shokz requiring reboot in google meet
+
+chrome://flags/#enable-web-bluetooth-new-permissions-backend
+
 ### Adjust microphone volume from cmdline
 
 `osascript -e "set volume input volume 50"`
