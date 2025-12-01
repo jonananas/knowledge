@@ -16,6 +16,10 @@
 - https://lovable.dev
 - https://console.firebase.google.com/
 
+### MCP
+
+- Making MCP tooling faster by letting the agent run code freely locally: https://www.anthropic.com/engineering/code-execution-with-mcp
+
 ### Video
 
 ## The AI Bubble
