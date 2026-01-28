@@ -7,7 +7,7 @@
 Make a file in home dir called .bc and put scale=2 on the first line followed by a carriage return.
 
     export BC_ENV_ARGS=~/.bc
-    
+
 Start bc, will have scale 10.
 
 ## rename
@@ -16,7 +16,7 @@ Rename PICT0021.JPG - PICT0099.JPG to PICT0020.JPG - PICT0098.JPG.
 Q: How add automatic padding?
 
     rename 's/(PICT00)(\d+)(\.JPG)/$1.($2-1).$3/e' *
-    
+
 ## awk and sed
 
 Generate YY-MM-DD,#requests from apache access log
@@ -34,3 +34,10 @@ Changing to american ISO-8859-1
 
 ## Finding files not encoded in UTF-8
 find . -type f -name "-exec file --exclude=soft {} \;|grep -v UTF-8|grep -v ASCII|awk '{print $2}'
+
+
+## Finding large size files
+
+ncdu is a command-line utility for Linux and macOS that provides an interactive and colorful text-based interface to analyze disk usage.
+
+`brew install ncdu`

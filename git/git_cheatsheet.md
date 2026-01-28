@@ -97,3 +97,4 @@ NOTE: Does not show editors of each file in directory or subdirectories.
 ## Using git outside git
 
 Diff:ing with git: ```git diff --no-index <file1> <file2>```
+

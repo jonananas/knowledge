@@ -18,6 +18,7 @@ brew install md5sha1sum
 brew install bash
 brew install git-lfs
 brew install p7zip
+brew install ncdu # Disk usage analyzer
 
 # Image tools
 brew install exif
