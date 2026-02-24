@@ -8,9 +8,12 @@ brew install --cask google-chrome
 brew install --cask visual-studio-code
 brew install --cask mattermost
 brew install --cask tunnelblick
-brew install --cask dropbox
+# Dropbox has to be installed manually
+# brew install --cask dropbox
+# Media tools
 brew install --cask vlc
 brew install --cask iina
+# LibreOffice does not require converting files, can view and edit MS Office files natively
 brew install --cask libreoffice
 # use caffeinate -d instead of caffeine, included in OSX
 brew install md5sha1sum
