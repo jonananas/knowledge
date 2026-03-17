@@ -85,3 +85,20 @@ c        | Switch between thumbnail and full mode
 ## Docker
 
 - [How to show X11 windows with Docker on Mac](https://medium.com/@mreichelt/how-to-show-x11-windows-within-docker-on-mac-50759f4b65cb)
+
+
+## Create bootable USB drive from *nix
+
+```
+# Find USB device
+diskutil list
+# --> Find /dev with matching NAME and SIZE
+
+# unmount it
+diskutil unmountDisk /dev/disk4
+
+# Write the ISO
+sudo dd if=ubuntu-24.04-desktop-amd64.iso of=/dev/rdisk4 bs=4m status=progress
+```
+On Macs, using /dev/rdiskX instead of /dev/diskX makes it much faster.
+

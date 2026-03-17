@@ -41,3 +41,13 @@ find . -type f -name "-exec file --exclude=soft {} \;|grep -v UTF-8|grep -v ASCI
 ncdu is a command-line utility for Linux and macOS that provides an interactive and colorful text-based interface to analyze disk usage.
 
 `brew install ncdu`
+
+
+## Firefox using nvidia gpu gfx
+
+```bash
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia firefox
+
+# Check with below, should show firefox
+nvidia-smi
+```

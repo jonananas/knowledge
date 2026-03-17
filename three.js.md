@@ -15,6 +15,18 @@ Right-hand system:
 
 ### Environment map from y up to z up, e.g. three.js to AGX
 
+----
+When choosing the split +x, -x, +y, -y, +z, -z from https://matheowis.github.io/HDRI-to-CubeMap/
+Do not change names (load in three.js as the first scheme below)
+nx -> rot 90 CW
+ny -> rot 180
+nz -> rot 180
+px -> rot 90 CCW
+py -> keep
+pz -> keep
+
+----
+
 If you use environment maps for three.js, but have z up `THREE.Object3D.DefaultUp.set(0, 0, 1)`
 this is the scheme to create a working environment map:
 

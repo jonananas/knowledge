@@ -16,11 +16,17 @@
 - https://lovable.dev
 - https://console.firebase.google.com/
 
+### Other tools
+
+- Nvidia PersonaPlex, a conversational AI model designed for natural real-time dialogue with customizable voices and user-defined personas. [Link](https://the-decoder.com/nvidia-open-sources-personaplex-a-voice-ai-that-listens-and-talks-at-the-same-time/)
+
 ### MCP
 
 - Making MCP tooling faster by letting the agent run code freely locally: https://www.anthropic.com/engineering/code-execution-with-mcp
 
-### Video
+
+
+## Video
 
 ## The AI Bubble
 
