@@ -100,7 +100,7 @@ Diff:ing with git: ```git diff --no-index <file1> <file2>```
 
 ## Stash only staged area
 
-
+`git stash push --staged`
 
 ## Track png with git lfs
 
