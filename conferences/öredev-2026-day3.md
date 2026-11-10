@@ -3,23 +3,23 @@
 ## Takeaways
 
 - Check out Check Ready to Implement Plugin
-- "Refactor tests to comply to init-run-assert"
+- "Refactor tests to comply to arrange-act-assert"
 - MCP Apps - build one.
 - Dev and Domain/Product experts must work together daily
 - Bounded Context with clear language helps AI do the right thing.
 - Checkout archUnit
 
-## Idéer
+## Ideas/remarks
 
 - AI Enablement team
-- Purpose för varje testmodul
+- Purpose for every testmodule
 - Why no Specification by Example (Gojko) vs AI sessions
-  - Not spec driven waterfall style
+  - This is not spec driven waterfall style
+  - Michael Plöd actually mentioned this
 - Why no loop engineering/harness engineering sessions?
+  - Too basic or too early?
 - Graph the ubiquitous language
-  - possibly as a MCP app
-- Set up the engineering AI workflow, use GPT as domain expert
-  - Context map of each market, physics, robotics, etc.
+  - possibly as an MCP app
 
 ## 9 Building our Legacy – One Decision at a Time
 

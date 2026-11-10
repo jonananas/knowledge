@@ -1,21 +1,26 @@
 # UV
 
+- [Introduction](https://docs.astral.sh/uv/)
+
 - [Prefer `pyproject.toml`](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/) before `setup.py` + `requirements.txt`.
 
 
 ## Cmds
 
 ```bash
-# install dependenciews
+# Add simpleaudio as dependency
+uv add simpleaudio
+
+# Add pytest and coverage as dev dependencies
+uv add --dev pytest pytest-cov
+
+# install dependencies
 uv sync
 
 # create new project
 uv init my-project
 uv init --package mypkg # To create package
 uv init -h
-
-# Add pytest and coverage
-uv add --dev pytest pytest-cov
 
 # Build
 uv build --wheel

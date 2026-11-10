@@ -1,12 +1,11 @@
 # Öredev 2026 day 1
 
-![Wednesday agenda](öredev-2026-assets/20261104_080000_wednesday_agenda.jpg)
+[Wednesday agenda](öredev-2026-assets/20261104_080000_wednesday_agenda.jpg)
 
 ## Arduino robot building workshop & challenge 10-12
 
 ## Takeaways
 
-- Meetings are important!
 - Now is a good time to create your AI company, next 1-2 years
 - MCP Inspector from Anthropic, start by npx
 - A2A protocol for Agent to agent
@@ -14,6 +13,7 @@
 - Platform team - Lars har satt upp
 - goldenpath and lint.sh - to have platform team help product teams as much as possible
 - The problem with prompt injection, mixing data and instructions.
+- Meetings are important!
 - Complexity means no one sees the whole elephant
 
 ## 9.00 Emil of Neo4j keynote
@@ -203,18 +203,14 @@ Fix:
 
 ## 15.50 When doing costs nothing, deciding costs everything, Vanessa Meyer
 
-![Session photo at 16:02:07](öredev-2026-assets/20261104_160207_straightened.jpg)
 ![Session photo at 16:02:11](öredev-2026-assets/20261104_160211_.jpg)
+![Session photo at 16:02:07](öredev-2026-assets/20261104_160207_straightened.jpg)
 ![Session photo at 16:06:12](öredev-2026-assets/20261104_160612_straightened.jpg)
 ![Session photo at 16:07:56](öredev-2026-assets/20261104_160756_straightened.jpg)
 ![Session photo at 16:10:01](öredev-2026-assets/20261104_161001_straightened.jpg)
 ![Session photo at 16:11:02](öredev-2026-assets/20261104_161102_straightened_straightened.jpg)
 ![Session photo at 16:15:48](öredev-2026-assets/20261104_161548_straightened.jpg)
 ![Session photo at 16:18:54](öredev-2026-assets/20261104_161854_straightened.jpg)
-![Session photo at 17:26:47](öredev-2026-assets/20261104_172647_.jpg)
-![Session photo at 17:26:48](öredev-2026-assets/20261104_172648_straightened.jpg)
-![Session photo at 17:35:49](öredev-2026-assets/20261104_173549_straightened.jpg)
-![Session photo at 17:39:00](öredev-2026-assets/20261104_173900_straightened.jpg)
 
 So don't skip the meeting, make it count!
 
@@ -229,7 +225,6 @@ Group decision making is hard.
 Noone sees the whole elephant in a complex problem, combine is needed
 Complexity means no one sees the whole elephant
 
-
 Probe
 Sense
 - if your ego is not taking a hit - you're not doing it right
@@ -242,3 +237,10 @@ Advice
 - Name the phase you're in.
 
 When you receive the slop, ask sender to explain "how did you get here"
+
+## 16.00 Keynote
+
+![Session photo at 17:26:47](öredev-2026-assets/20261104_172647_.jpg)
+![Session photo at 17:26:48](öredev-2026-assets/20261104_172648_straightened.jpg)
+![Session photo at 17:35:49](öredev-2026-assets/20261104_173549_straightened.jpg)
+![Session photo at 17:39:00](öredev-2026-assets/20261104_173900_straightened.jpg)

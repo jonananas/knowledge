@@ -1,17 +1,6 @@
 # Öredev 2026 day 2
 
-![Thursday agenda](öredev-2026-assets/20261105_080000_thursday_agenda.jpg)
-
-## Ideas
-
-- MCP + Agent that optimize the lego model.
-- A2A to the agent responsible for developing the MCP.
-
-- WHen doing code reviews
-  - KISS - solved a simpler way
-  - SOLID
-    - Breaks SRP?
-    - duplication
+[Thursday agenda](öredev-2026-assets/20261105_080000_thursday_agenda.jpg)
 
 ## Takeaways
 
@@ -19,6 +8,11 @@
 - Build Lab software yourself, you need full control
 - Blast radius of changes - risc review agent
 - Specialized review agents, try out parallell review agents with orchestrator
+    - WHen doing code reviews
+    - KISS - solved a simpler way
+    - SOLID
+        - Breaks SRP?
+        - duplication
 
 
 ## Recommended by others
