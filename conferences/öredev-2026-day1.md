@@ -199,10 +199,12 @@ Fix:
 ![Session photo at 15:24:44](öredev-2026-assets/20261104_152444_straightened.jpg)
 ![Session photo at 15:28:44](öredev-2026-assets/20261104_152844_.jpg)
 ![Session photo at 15:31:10](öredev-2026-assets/20261104_153110_straightened.jpg)
-![Session photo at 15:40:49](öredev-2026-assets/20261104_154049_.jpg)
 
 ## 15.50 When doing costs nothing, deciding costs everything, Vanessa Meyer
 
+[Link to slides](https://afoot.net/When_Doing_Costs_Nothing_Deciding_Costs_Everything/vanessa---when-doing-costs-nothing-deciding-costs-everything.pdf)
+
+![Session photo at 15:40:49](öredev-2026-assets/20261104_154049_.jpg)
 ![Session photo at 16:02:11](öredev-2026-assets/20261104_160211_.jpg)
 ![Session photo at 16:02:07](öredev-2026-assets/20261104_160207_straightened.jpg)
 ![Session photo at 16:06:12](öredev-2026-assets/20261104_160612_straightened.jpg)
